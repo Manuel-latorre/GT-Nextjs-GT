@@ -1,0 +1,40 @@
+.ds{
+    width: 500px;
+}
+
+.hosting{
+    width: 400px;
+}
+
+.uxui{
+    width: 250px;
+}
+@media(max-width:1670px){
+    
+    .ds{
+        width: 350px;
+    }
+    .hosting{
+        width: 300px;
+    }
+    .uxui{
+        width: 100px;
+    }
+
+}
+
+
+@media(max-width:500px){
+    
+    .ds{
+        width: 250px;
+    }
+    .hosting{
+        width: 200px;
+    }
+    .uxui{
+        width: 80px;
+    }
+
+}
+

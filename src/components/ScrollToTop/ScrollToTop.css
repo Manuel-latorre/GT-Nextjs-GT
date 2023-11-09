@@ -1,0 +1,9 @@
+.scrollContainer {
+    position: fixed;
+    bottom: 20px; /* Ajusta esta propiedad para cambiar la distancia desde la parte inferior de la pantalla */
+    right: 20px; /* Ajusta esta propiedad para cambiar la distancia desde la parte izquierda de la pantalla */
+    z-index: 1000; /* Asegura que esté en la parte superior de otros elementos */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }

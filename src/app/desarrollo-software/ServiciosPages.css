@@ -1,0 +1,184 @@
+.card_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(117, 117, 117, 0.61);
+    height: 550px;
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 20px;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin:60px;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title_container{
+    margin: 20px;
+}
+
+
+
+.accordion_card{
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    color: whitesmoke;
+}
+
+.text-foreground{
+    color: white !important;
+  }
+
+  .mySwiperDs{
+    width: 90%;
+    margin-bottom: 100px;
+  }
+
+
+.container_porqueGt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    border: 1px solid rgba(117, 117, 117, 0.276);
+}
+
+
+
+.text_image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container{
+    width: 60%;
+    text-justify: distribute;
+}
+
+.logoGt{
+    width: 600px;
+}
+
+
+.beneficios{
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(117, 117, 117, 0.276);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.benefecios_card_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficios_card{
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(117, 117, 117, 0.276);
+    border: 1px solid rgba(117, 117, 117, 0.276);
+    border-radius: 20px;
+    width: auto;
+    margin: 50px;
+    padding: 20px;
+}
+
+.mySwiperBeneficios{
+    width: 90%;
+}
+
+.beneficios_mobile{
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(117, 117, 117, 0.276);
+    border: 1px solid rgba(117, 117, 117, 0.276);
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.beneficios_mobile{
+    display: none;
+}
+
+@media(max-width: 1309px){
+    .beneficios{
+        display: none;
+    }
+    .beneficios_mobile{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1237px){
+    .text_image_container{
+        flex-direction: column;
+    }
+    .text_container{
+        width: 90%;
+    }
+}
+
+
+@media(max-width: 800px){
+    .logoGt{
+        width: 400px;
+    }
+    /* .container_porqueGt{
+    
+    } */
+}
+
+@media(max-width: 500px){
+    .card_container{
+        height: auto;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+}
