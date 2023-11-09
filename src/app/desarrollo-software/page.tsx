@@ -1,19 +1,19 @@
 'use client'
 
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import {Accordion, AccordionItem} from "@nextui-org/react";
-import 'swiper/css';
-import 'swiper/css/pagination';
 import Ds from "@/components/Lotties/Ds";
-import './ServiciosPages.css'
 import UxUi from '@/components/Lotties/UxUi';
 import Support from '@/components/Lotties/Support';
 import Hosting from '@/components/Lotties/Hosting';
 import Image from 'next/image';
 import logo from '../../assets/logo.svg'
 import BeneficiosMobile from '@/components/BeneficiosMobile/BeneficiosMobile';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import './ServiciosPages.css'
 
 
 
