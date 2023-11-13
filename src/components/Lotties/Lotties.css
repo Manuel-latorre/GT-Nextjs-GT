@@ -9,6 +9,20 @@
 .uxui{
     width: 250px;
 }
+
+.socialMedia{
+    width: 400px;
+}
+
+.md{
+    width: 400px;
+}
+
+.ce{
+    width: 350px;
+}
+
+
 @media(max-width:1670px){
     
     .ds{
@@ -34,6 +48,12 @@
     }
     .uxui{
         width: 80px;
+    }
+    .md{
+        width: 250px;
+    }
+    .ce{
+        width: 250px;
     }
 
 }

@@ -12,11 +12,11 @@ import Hosting from '@/components/Lotties/Hosting';
 import Image from 'next/image';
 import logo from '../../assets/logo.svg'
 import BeneficiosMobile from '@/components/BeneficiosMobile/BeneficiosMobile';
+import PreguntasFrecuentesDs from '@/components/Preguntas/Ds';
+import ContactoFaqs from '@/app/Faqs/ContactoFaqs';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './ServiciosPages.css'
-import PreguntasFrecuentesDs from '@/components/Preguntas/Ds';
-import ContactoFaqs from '@/components/Faqs/ContactoFaqs';
 
 const montserrat = Montserrat({
   subsets:['latin'],
@@ -98,7 +98,7 @@ export default function DesarrolloSoftware(){
                 </Swiper>
             </div>
             <div>
-                <div className='container_porqueGt' style={{margin:100}}>
+                <div className='container_porqueGt' style={{marginBottom:100}}>
                     <p style={{color:'cyan', margin:20, fontSize:20}}>¿Por qué diseñar su sitio web con nosotros?</p>
                     <div className='text_image_container'>
                         <div className='text_container'>
@@ -147,12 +147,9 @@ export default function DesarrolloSoftware(){
                    
             </div>
             <div className='preguntas_frecuentes'>
-                <div>
-                    <p style={{color:'cyan', margin:20, fontSize:20, textAlign:'center'}}>Preguntas Frecuentes</p>
-                </div>
+                <ContactoFaqs/>
                 <PreguntasFrecuentesDs/>
             </div>
-                <ContactoFaqs/>
         </div>
     )
 }

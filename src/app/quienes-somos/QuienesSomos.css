@@ -1,0 +1,55 @@
+.quienesSomos{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.quienesSomos_descripcion{
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(128, 128, 128, 0.287);
+
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.frase{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.quienesSomos_card{
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    width: 400px;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.287);
+
+}
+
+.quienesSomos_benef{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+@media(max-width:500px){
+    .quienesSomos_card{
+        width: auto;
+    }
+}

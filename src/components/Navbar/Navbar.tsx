@@ -5,6 +5,7 @@ import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import Image from 'next/image'
 import Loader from '../Loader/Loader'
+import Link from 'next/link'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -50,45 +51,21 @@ const Navbar = () => {
 
 
             <div  className={`nav_items ${isOpen && 'open'}`}>
-            <a onClick={handleNosotrosClick} className='btnNav' href="/">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Inicio</a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="nosotros">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Nosotros</a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="/#servicios">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Servicios</a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="/#nuestroEquipo">
-                <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Nuestro Equipo
-                </a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="/#faqs">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <Link onClick={handleNosotrosClick} className='btnNav' href="/">
+                    Inicio
+                </Link>
+                <Link onClick={handleNosotrosClick} className='btnNav' href="/quienes-somos">
+                    Quienes somos
+                </Link>
+                <Link onClick={handleNosotrosClick} className='btnNav' href="/#servicios">
+                    Servicios
+                </Link>
+                <Link onClick={handleNosotrosClick} className='btnNav' href="/#faqs">
                     FAQs
-                </a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="/#contacto">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                </Link>
+                <Link onClick={handleNosotrosClick} className='btnNav' href="/#contacto">
                     Contacto
-                </a>
+                </Link>
             </div>
             <div className={`nav_toggle ${isOpen && 'open'}`} onClick={() => setIsOpen(!isOpen)} >
                 <span></span>

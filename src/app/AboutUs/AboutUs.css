@@ -116,6 +116,16 @@
     }
 }
 
+@media(max-width: 890px){
+    .note_container{
+        display: none;
+    }
+    .main{
+        width: 90%;
+        padding: 10px;
+    }
+}
+
 
 @media(max-width: 654px){
     .btnAbout{

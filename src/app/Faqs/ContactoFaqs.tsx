@@ -1,10 +1,17 @@
 import React from 'react'
-import Faqs from '../Lotties/Faqs'
+import Faqs from '../../components/Lotties/Faqs'
 import './ContactoFaqs.css'
+import { Montserrat } from 'next/font/google'
+
+
+const montserrat = Montserrat({
+  subsets:['latin'],
+  weight:['700', '500', '200']
+})
 
 const ContactoFaqs = () => {
   return (
-    <div style={{marginTop: 100}} id='faqs'>
+    <div className={montserrat.className} style={{marginTop: 100}} id='faqs'>
         <p style={{textAlign:'center', fontSize:30}}>PREGUNTAS FRECUENTES</p>
         <div className='container-faqs-solucion'>
             <div className='container-texto-faqs'>

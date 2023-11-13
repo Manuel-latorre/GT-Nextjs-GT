@@ -4,7 +4,7 @@ import { Providers } from './Providers'
 import Navbar from '@/components/Navbar/Navbar'
 import ScrollToTop from '@/components/ScrollToTop/ScrollToTop'
 import { Montserrat } from 'next/font/google'
-import Footer from '@/components/Footer/Footer'
+import Footer from '@/app/Footer/Footer'
 
 const montserrat = Montserrat({
   subsets:['latin'],

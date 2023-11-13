@@ -6,6 +6,8 @@
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(128, 128, 128, 0.287);
+
 }
 
 

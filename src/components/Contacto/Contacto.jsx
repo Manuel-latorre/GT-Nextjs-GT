@@ -1,8 +1,9 @@
 "use client"
 import React, { useState, useRef} from 'react'
-import './Contacto.css'
-import { validate } from './validation/validation';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
+import { validate } from './validation/validation';
+import './Contacto.css'
 
 
 const Contacto = () => {
@@ -38,6 +39,13 @@ const Contacto = () => {
     }, 5000);
     emailjs.sendForm('service_k8v9j6h', 'template_1o992gh', formulario.current, 'zYxLAVDYmQaJG4_j3')
     .then((result) => {
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Su consulta fue enviada con exito',
+        showConfirmButton: false,
+        timer: 1500
+      })
         console.log(result.text);
     }, (error) => {
         console.log(error.text);
@@ -69,16 +77,6 @@ const Contacto = () => {
 
             <button className='btnEnviar' disabled={disabled()}> ENVIAR </button>
         </form>
-            <div className='alert'>
-        {/* { openAlert && <Alert style={{
-          width: '100%',
-          backgroundColor: '#00b6b056'
-          }} >
-          Su consulta fue enviada con éxito
-          </Alert>} */}
-
-            </div>
-       
         
     </div>
   )

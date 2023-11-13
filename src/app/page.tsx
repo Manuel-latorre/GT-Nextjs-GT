@@ -1,18 +1,15 @@
-import AboutUs from '@/components/AboutUs/AboutUs'
-import ContactoFaqs from '@/components/Faqs/ContactoFaqs'
-import Faqs from '@/components/Faqs/Faqs'
-
+import AboutUs from '@/app/AboutUs/AboutUs'
+import ContactoFaqs from '@/app/Faqs/ContactoFaqs'
+import Faqs from '@/app/Faqs/Faqs'
 import Contacto from "@/components/Contacto/Contacto"
-
-
+import Servicios from '@/app/Servicios/Servicios'
 import { Montserrat } from 'next/font/google'
-import Servicios from '@/components/Servicios/Servicios'
+
 
 const montserrat = Montserrat({
   subsets:['latin'],
   weight:['700', '500', '200']
 })
-
 
 export default function Home() {
   return (
