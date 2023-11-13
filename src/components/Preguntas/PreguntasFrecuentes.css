@@ -1,0 +1,10 @@
+.accordion_preguntas{
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 20px;
+    border: 1px solid rgba(117, 117, 117, 0.276);
+    width: 90%;
+    margin: auto;
+}

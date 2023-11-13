@@ -4,6 +4,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import {Accordion, AccordionItem} from "@nextui-org/react";
+import { Montserrat } from 'next/font/google'
 import Ds from "@/components/Lotties/Ds";
 import UxUi from '@/components/Lotties/UxUi';
 import Support from '@/components/Lotties/Support';
@@ -14,12 +15,18 @@ import BeneficiosMobile from '@/components/BeneficiosMobile/BeneficiosMobile';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './ServiciosPages.css'
+import PreguntasFrecuentesDs from '@/components/Preguntas/Ds';
+import ContactoFaqs from '@/components/Faqs/ContactoFaqs';
 
+const montserrat = Montserrat({
+  subsets:['latin'],
+  weight:['700', '500', '200']
+})
 
 
 export default function DesarrolloSoftware(){
     return (
-        <div>
+        <div className={montserrat.className}>
             <div className='title_container'>
                 <h1 className='title'>Desarrollo de Software</h1>
                 <p className='subtitle'>Nuestras soluciones</p>
@@ -95,7 +102,14 @@ export default function DesarrolloSoftware(){
                     <p style={{color:'cyan', margin:20, fontSize:20}}>¿Por qué diseñar su sitio web con nosotros?</p>
                     <div className='text_image_container'>
                         <div className='text_container'>
-                            <p>Generación Tech es mucho mas que una Empresa de desarrollos y servicios al cliente. Desde nuestros inicios postulamos que Nuestro foco es la solución,  para ello, convocamos a un equipo de profesionales expertos en disciplinas especificas para cada necesidad del nuevo ecosistema digital, contamos con jóvenes talentos certificados y titulados en tecnologías disruptivas y de alto impacto, profesionales que saben lo que hacen y entienden el mundo del los negocios en linea, dispuestos a construir soluciones tecnológicas a medida.Llevamos a cabo nuestros servicios mediante un proceso que comienza con la comprensión de las necesidades del cliente y la planificación detallada del proyecto. Luego diseñamos, desarrollamos y probamos el software, lo implementamos y proporcionamos soporte continuo. Mantenemos una comunicación constante con el cliente, documentamos el sistema y buscamos la retroalimentación para mejorar nuestros servicios y garantizar soluciones de alta calidad.</p>
+                            <div className='text_porqueGt_mobile'>
+                                <Accordion isCompact variant='bordered'>
+                                    <AccordionItem title="Leer más">
+                                        <p>Generación Tech es mucho mas que una Empresa de desarrollos y servicios al cliente. Desde nuestros inicios postulamos que Nuestro foco es la solución,  para ello, convocamos a un equipo de profesionales expertos en disciplinas especificas para cada necesidad del nuevo ecosistema digital, contamos con jóvenes talentos certificados y titulados en tecnologías disruptivas y de alto impacto, profesionales que saben lo que hacen y entienden el mundo del los negocios en linea, dispuestos a construir soluciones tecnológicas a medida.Llevamos a cabo nuestros servicios mediante un proceso que comienza con la comprensión de las necesidades del cliente y la planificación detallada del proyecto. Luego diseñamos, desarrollamos y probamos el software, lo implementamos y proporcionamos soporte continuo. Mantenemos una comunicación constante con el cliente, documentamos el sistema y buscamos la retroalimentación para mejorar nuestros servicios y garantizar soluciones de alta calidad.</p>
+                                    </AccordionItem>
+                                </Accordion>
+                            </div>
+                            <p className='text_porqueGt'>Generación Tech es mucho mas que una Empresa de desarrollos y servicios al cliente. Desde nuestros inicios postulamos que Nuestro foco es la solución,  para ello, convocamos a un equipo de profesionales expertos en disciplinas especificas para cada necesidad del nuevo ecosistema digital, contamos con jóvenes talentos certificados y titulados en tecnologías disruptivas y de alto impacto, profesionales que saben lo que hacen y entienden el mundo del los negocios en linea, dispuestos a construir soluciones tecnológicas a medida.Llevamos a cabo nuestros servicios mediante un proceso que comienza con la comprensión de las necesidades del cliente y la planificación detallada del proyecto. Luego diseñamos, desarrollamos y probamos el software, lo implementamos y proporcionamos soporte continuo. Mantenemos una comunicación constante con el cliente, documentamos el sistema y buscamos la retroalimentación para mejorar nuestros servicios y garantizar soluciones de alta calidad.</p>
                         </div>
                         <Image className='logoGt' src={logo} alt='logo'/>
                     </div>
@@ -132,7 +146,13 @@ export default function DesarrolloSoftware(){
                 </div>
                    
             </div>
-                
+            <div className='preguntas_frecuentes'>
+                <div>
+                    <p style={{color:'cyan', margin:20, fontSize:20, textAlign:'center'}}>Preguntas Frecuentes</p>
+                </div>
+                <PreguntasFrecuentesDs/>
+            </div>
+                <ContactoFaqs/>
         </div>
     )
 }
