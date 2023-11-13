@@ -186,26 +186,6 @@ display: none;
   height:auto;
 }
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
-  content: 'next';
-  color: white;
-}
-
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-  content: 'prev';
-  color: white;
-
-
-}
-
-#titleMobile{
-  font-size: 18px;
-}
-
-#btnConoceMasMobile{
-  padding: 10px;
-  font-size: 14px;
-}
 
 
 @media(max-width:940px) {
@@ -216,5 +196,5 @@ display: none;
 
 .container-servicios-web{
   display: none;
-}
+  }
 }
