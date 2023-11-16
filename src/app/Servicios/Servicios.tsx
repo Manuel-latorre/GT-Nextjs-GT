@@ -28,10 +28,10 @@ export default function Servicios(){
                         delay:5000
                     }}
                     breakpoints={{
-                        800:{
+                        900:{
                             slidesPerView: 2
                         },
-                        1200: {
+                        1600: {
                             slidesPerView: 3
                         }
                     }}

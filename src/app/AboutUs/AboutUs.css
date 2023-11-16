@@ -106,6 +106,14 @@
     background: linear-gradient(180deg, transparent, #19fff6);
 }
 
+.textBienvenidosEra{
+    font-size:35px; 
+    text-align:center;
+    margin:50px; 
+    font-weight:bolder;
+}
+
+
 @media(max-width:1404px){
     .main{
         flex-wrap: wrap;
@@ -135,5 +143,12 @@
     .btnContactame{
         width: 200px;
         justify-content: center;
+    }
+
+}
+
+@media(max-width:563px){
+    .textBienvenidosEra{
+        font-size: 25px;
     }
 }

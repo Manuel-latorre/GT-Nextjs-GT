@@ -14,3 +14,7 @@
 .text-foreground{
   color: white !important;
 }
+
+.accordionItem{
+  color: rgb(122, 231, 231);
+}

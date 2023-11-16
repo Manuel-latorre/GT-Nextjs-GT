@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 
 const AboutUs = () => {
   return (
-    <div className={montserrat.className}>
+    <div className={montserrat.className} style={{marginTop:100}}>
 
     <div className='divAboutUs' id='nosotros'>
 
@@ -24,7 +24,7 @@ const AboutUs = () => {
           <h1>! Bienvenidos  a Generacion <strong style={{color:'#00fff5'}}>Tech</strong> !</h1>
           
         
-        <h4 style={{fontWeight:400, textAlign:"center", fontSize:18}}>Somos tu agencia digital para que puedas crecer en el mundo de la tecnologia</h4>
+        <h4 style={{fontWeight:400, textAlign:"center", fontSize:18}}>Transformando ideas en soluciones digitales</h4>
         <hr style={{width: '80%', margin:'auto', marginTop:'3%', marginBottom:'3%'}}/>
         <div style={{width:'85%', textAlign:'center', margin:'auto', marginTop: 20}}>
           <p> Somos Generación Tech, una empresa innovadora especializada en desarrollos y servicios tecnológicos. Nuestro equipo integrado por jóvenes profesionales está dispuesto a llevar tu negocio al siguiente nivel  “El Mercado Digital”</p>
@@ -54,7 +54,7 @@ const AboutUs = () => {
       </div>
     </main>
     </div>
-    <p style={{fontSize:35, textAlign:'center', margin:50, fontWeight:'bolder'}}>¡Bienvenido a una nueva era de posibilidades para su negocio!</p>
+    <p className='textBienvenidosEra'>¡Bienvenido a una nueva era de posibilidades para su negocio!</p>
     </div>
   )
 }
