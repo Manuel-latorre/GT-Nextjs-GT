@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import {Accordion, AccordionItem} from "@nextui-org/react";
 import { Montserrat } from 'next/font/google'
+import {ScrollShadow} from "@nextui-org/react";
+
 import ContactoFaqs from '@/app/Faqs/ContactoFaqs';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -52,60 +54,64 @@ export default function MarketingDigital(){
                         <SwiperSlide>
                             <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Auditoría Web</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Nuestra área de Comercio Electrónico está integrada por un equipo de profesionales especializados en auditorias de canales digitales. Hacemos seguimientos, revisiones y análisis de cada canal solicitado en la búsqueda de fallas que obstaculicen la navegación, la usabilidad, la velocidad de carga, la interacción, y la seguridad. Elevamos informes de resultados y proponemos nuestras soluciones.
-                                    </AccordionItem>
-                                </Accordion>
-                                <AudiWeb/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                        <div className='container_service_info'>
+                                            <p className='textService'>Nuestra área de Comercio Electrónico está integrada por un equipo de profesionales especializados en auditorias de canales digitales. Hacemos seguimientos, revisiones y análisis de cada canal solicitado en la búsqueda de fallas que obstaculicen la navegación, la usabilidad, la velocidad de carga, la interacción, y la seguridad. Elevamos informes de resultados y proponemos nuestras soluciones.</p>
+                                            <AudiWeb/>
+                                        </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Auditoría Social Media</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Generación Tech nació con el propósito de brindar soluciones digitales y nuestro servicio de auditoría social media en este sentido es crucial para que las empresas alcancen los resultados esperados.
-                                        Evaluamos e informamos el estado de situación de su marca, analizamos su presencia en linea, su imagen, su tono de voz, su reputación y el impacto de sus estrategias.
-                                        Aplicamos métricas y  Kpis  para la elaboración de nuestros informes.
-                                        La auditoría Social Media es una inversión, ya que contribuye directamente a la adquisición y retención de clientes.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <AudiMedia/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>
+                                            Generación Tech nació con el propósito de brindar soluciones digitales y nuestro servicio de auditoría social media en este sentido es crucial para que las empresas alcancen los resultados esperados.
+                                            Evaluamos e informamos el estado de situación de su marca, analizamos su presencia en linea, su imagen, su tono de voz, su reputación y el impacto de sus estrategias.
+                                            Aplicamos métricas y  Kpis  para la elaboración de nuestros informes.
+                                            La auditoría Social Media es una inversión, ya que contribuye directamente a la adquisición y retención de clientes.
+                                        </p>                                 
+                                        <AudiMedia/>
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
-                                <p style={{color:'cyan', margin:20, fontSize:20}}>Métricas Y KPI´S</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Nuestro equipo de e-mail marketing ejerce un papel esencial en el proceso de relación, la adquisición de nuevos clientes y la generación de ingresos. Contamos con capacidad para diseñar, ejecutar y optimizar campañas de e-mail marketing efectivas clave para el éxito en el marketing digital, ya que permite llegar a la audiencia de manera personalizada y medible.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Metricas/>
+                                <p style={{color:'cyan', margin:20, fontSize:20}}>Métricas Y KPI'S</p>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>Nuestro equipo de e-mail marketing ejerce un papel esencial en el proceso de relación, la adquisición de nuevos clientes y la generación de ingresos. Contamos con capacidad para diseñar, ejecutar y optimizar campañas de e-mail marketing efectivas clave para el éxito en el marketing digital, ya que permite llegar a la audiencia de manera personalizada y medible.</p>                                  
+                                        <Metricas/>
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Análisis de ventas y conversiones</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Las ventas digitales y la conversión son pilares esenciales en el comercio en línea. La capacidad de transformar visitantes en clientes es crucial para el éxito de cualquier negocio en el entorno digital.
-                                        Nuestro equipo analiza e identifica estas necesidades en el entorno virtual y eleva en informes detallados que lo ayuden a crecer y transformar su realidad de negocio.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Ventas/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>
+                                            Las ventas digitales y la conversión son pilares esenciales en el comercio en línea. La capacidad de transformar visitantes en clientes es crucial para el éxito de cualquier negocio en el entorno digital.
+                                            Nuestro equipo analiza e identifica estas necesidades en el entorno virtual y eleva en informes detallados que lo ayuden a crecer y transformar su realidad de negocio.
+                                        </p>
+                                        <Ventas/>
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Análisis del comportamiento del usuario</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Comprender cómo los usuarios navegan por un sitio web o una aplicación ayuda a identificar áreas de mejora en la experiencia del usuario. En Generación Tech realizamos pruebas de usabilidad para realizar ajustes en función de los datos recopilados.
-                                    </AccordionItem>
-                                </Accordion>
-                                <User/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'> Comprender cómo los usuarios navegan por un sitio web o una aplicación ayuda a identificar áreas de mejora en la experiencia del usuario. En Generación Tech realizamos pruebas de usabilidad para realizar ajustes en función de los datos recopilados. </p>                                   
+                                        <User/>
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                 </Swiper>
@@ -151,8 +157,8 @@ export default function MarketingDigital(){
                    
             </div>
             <div className='preguntas_frecuentes'>
-                <ContactoFaqs/>
                 <PreguntasFrecuentesCe/>
+                <ContactoFaqs/>
             </div>
         </div>
     )

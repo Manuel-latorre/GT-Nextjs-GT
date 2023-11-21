@@ -11,16 +11,21 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [showLoader, setShowLoader] = useState(false);
+  const [shouldCloseMenu, setShouldCloseMenu] = useState(false); // Nuevo estado
   const navRef = useRef(null);
 
   const handleNosotrosClick = () => {
     setShowLoader(true);
+    setShouldCloseMenu(true); // Establecer el estado para cerrar el menú
 
     setTimeout(() => {
         setShowLoader(false);
+        setShouldCloseMenu(false); // Restablecer el estado después de que se complete la acción
     }, 1000);
 
 };
+
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,8 +45,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      // Use type assertion to tell TypeScript that navRef.current is an HTMLDivElement
-      if (navRef.current && !(navRef.current as HTMLDivElement).contains(event.target as Node)) {
+      if (navRef.current && !(navRef.current as HTMLDivElement).contains(event.target as Node) && shouldCloseMenu) {
         setIsOpen(false);
       }
     }
@@ -51,7 +55,7 @@ const Navbar = () => {
     return () => {
       document.body.removeEventListener('click', handleClickOutside);
     };
-  }, []);
+  }, [shouldCloseMenu]);
 
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`} ref={navRef}>
@@ -62,19 +66,39 @@ const Navbar = () => {
       </div>
 
       <div className={`nav_items ${isOpen && 'open'}`}>
-        <Link onClick={handleNosotrosClick} className='btnNav' href="/">
+        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           Inicio
         </Link>
-        <Link onClick={handleNosotrosClick} className='btnNav' href="/quienes-somos">
+        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/quienes-somos">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           Quienes somos
         </Link>
-        <Link onClick={handleNosotrosClick} className='btnNav' href="/#servicios">
+        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/#servicios">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           Servicios
         </Link>
-        <Link onClick={handleNosotrosClick} className='btnNav' href="/#faqs">
+        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/#faqs">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           FAQs
         </Link>
-        <Link onClick={handleNosotrosClick} className='btnNav' href="/#contacto">
+        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/#contacto">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           Contacto
         </Link>
       </div>

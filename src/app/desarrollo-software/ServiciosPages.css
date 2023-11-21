@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     border: 1px solid rgba(117, 117, 117, 0.61);
-    height: 550px;
+    height:400px;
     background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -11,6 +11,26 @@
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     padding: 20px;
     text-align: center;
+    
+}
+
+.container_service_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textService{
+    text-align: start;
+    font-size: 16px;
+    border-radius: 15px;
+    background:linear-gradient(315deg,rgba(0, 204, 255, 0.307),rgba(0, 208, 255, 0.117),rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.034));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: solid 1px rgba(46, 46, 46, 0.545);
+    padding: 10px;
 
 }
 
@@ -116,7 +136,7 @@
     border: 1px solid rgba(117, 117, 117, 0.276);
     border: 1px solid rgba(117, 117, 117, 0.276);
     border-radius: 20px;
-    width: auto;
+    width: 500px;
     margin: 50px;
     padding: 20px;
 }
@@ -150,6 +170,17 @@
     display: none;
 }
 
+@media(max-width:1996px){
+    .container_service_info{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:1506){
+    .beneficios_card{
+        width: 400px;
+    }
+}
+
 @media(max-width: 1309px){
     .beneficios{
         display: none;
@@ -160,7 +191,7 @@
         padding: 10px;
     }
     .beneficios_card{
-        width: 100%;
+        width: auto;
         margin: auto;
     }
 }
@@ -194,9 +225,7 @@
 }
 
 @media(max-width: 500px){
-    .card_container{
-        height: auto;
-    }
+    
 
     .title{
         font-size: 25px;

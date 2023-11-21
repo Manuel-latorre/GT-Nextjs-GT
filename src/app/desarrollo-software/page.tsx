@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import {Accordion, AccordionItem} from "@nextui-org/react";
 import { Montserrat } from 'next/font/google'
+import {ScrollShadow} from "@nextui-org/react";
 import Ds from "@/components/Lotties/Ds";
 import UxUi from '@/components/Lotties/UxUi';
 import Support from '@/components/Lotties/Support';
@@ -53,46 +54,47 @@ export default function DesarrolloSoftware(){
                         <SwiperSlide>
                             <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Desarrollo y diseños de sitios web a Medida/Landing Pages</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        En el panorama actual de los negocios en linea contar con un sitio web es esencial para mostrar su negocio o proyecto, este canal permite contar con presencia permanente en línea, ampliar  su alcance a nivel global y proporcionar una plataforma para mostrar sus productos o  servicios las 24 horas del día, los 7 días de la semana, mejorando la productividad de su empresa y facilitando la comunicación con clientes potenciales.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Ds/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'> En el panorama actual de los negocios en linea contar con un sitio web es esencial para mostrar su negocio o proyecto, este canal permite contar con presencia permanente en línea, ampliar  su alcance a nivel global y proporcionar una plataforma para mostrar sus productos o  servicios las 24 horas del día, los 7 días de la semana, mejorando la productividad de su empresa y facilitando la comunicación con clientes potenciales.</p>
+                                        <Ds/>
+                                    </div>
+                                </ScrollShadow>   
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                    El diseño de experiencia de usuario (UX) y el diseño de interfaz de usuario (UI) son esenciales para crear productos digitales exitosos y atractivos. Estos diseños influyen en la satisfacción del usuario, la retención, la conversión y la percepción de la marca. Invertir en UX/UI no solo mejora la experiencia del usuario, sino que también puede tener un impacto significativo en el rendimiento y el éxito de un producto digital.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <UxUi/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>El diseño de experiencia de usuario (UX) y el diseño de interfaz de usuario (UI) son esenciales para crear productos digitales exitosos y atractivos. Estos diseños influyen en la satisfacción del usuario, la retención, la conversión y la percepción de la marca. Invertir en UX/UI no solo mejora la experiencia del usuario, sino que también puede tener un impacto significativo en el rendimiento y el éxito de un producto digital.</p>
+                                        <UxUi/>
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Mantenimiento y Soporte de Sofware</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                    El mantenimiento y soporte de software es fundamental para asegurar que las aplicaciones y sistemas digitales sigan siendo efectivos, seguros y relevantes con el tiempo. Estas prácticas son esenciales para mantener la protección de su información, evitando el acceso a sus datos por parte de usuarios no autorizados.
-                                    Ignorar el mantenimiento y el soporte de su software puede resultar altamente costoso, exponiéndose ademas a la perdida de datos propios o de sus clientes y a la vulnerabilidad de su información.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Support/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>El mantenimiento y soporte de software es fundamental para asegurar que las aplicaciones y sistemas digitales sigan siendo efectivos, seguros y relevantes con el tiempo. Estas prácticas son esenciales para mantener la protección de su información, evitando el acceso a sus datos por parte de usuarios no autorizados.
+                                            Ignorar el mantenimiento y el soporte de su software puede resultar altamente costoso, exponiéndose ademas a la perdida de datos propios o de sus clientes y a la vulnerabilidad de su información.</p>
+                                        <Support/>
+                                    </div>
+                                </ScrollShadow>
+                                
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Alojamiento Web hosting</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                    Un equipo de alojamiento web hosting eficiente es esencial para proporcionar un ambiente en línea seguro, de alto rendimiento y disponible en todo momento. Su experiencia y dedicación contribuyen directamente al éxito y la satisfacción de los usuarios de los sitios web y aplicaciones en línea, lo que es fundamental en un mundo digital altamente competitivo.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Hosting/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>Un equipo de alojamiento web hosting eficiente es esencial para proporcionar un ambiente en línea seguro, de alto rendimiento y disponible en todo momento. Su experiencia y dedicación contribuyen directamente al éxito y la satisfacción de los usuarios de los sitios web y aplicaciones en línea, lo que es fundamental en un mundo digital altamente competitivo.</p>                                       
+                                        <Hosting/>
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                 </Swiper>
@@ -147,8 +149,8 @@ export default function DesarrolloSoftware(){
                    
             </div>
             <div className='preguntas_frecuentes'>
-                <ContactoFaqs/>
                 <PreguntasFrecuentesDs/>
+                <ContactoFaqs/>
             </div>
         </div>
     )

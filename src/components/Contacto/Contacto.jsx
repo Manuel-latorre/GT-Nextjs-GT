@@ -63,17 +63,18 @@ const Contacto = () => {
         <p style={{fontSize: 30, fontWeight: '400', textAlign:'center', marginBottom: 80, marginTop: 50}}>CONTACTO</p>
 
         <form className='form' onSubmit={handleSubmit} ref={formulario}>
+          
             <input className='inputForm' type="text" placeholder='Introduzca su nombre ...' name='name' value={form.name} onChange={handleChange} />
-            {errors.name && <p>{errors.name}</p>}
+            {errors.name && <p className='errors'>{errors.name}</p>}
 
             <input className='inputForm' type="text" placeholder='Introduzca su Email ...' name='email' value={form.email} onChange={handleChange}/>
-            {errors.email && <p>{errors.email}</p>}
+            {errors.email && <p className='errors'>{errors.email}</p>}
 
             <input className='inputForm' type="tel" placeholder='Introduzca su telefono ...' name='tel' value={form.tel} onChange={handleChange}/>
-            {errors.tel && <p>{errors.tel}</p>}
+            {errors.tel && <p className='errors'>{errors.tel}</p>}
 
             <textarea className='textArea' placeholder='Contanos en que podemos ayudarte ...' name='text' value={form.text} onChange={handleChange}></textarea>
-            {errors.text && <p>{errors.text}</p>}
+            {errors.text && <p className='errors'>{errors.text}</p>}
 
             <button className='btnEnviar' disabled={disabled()}> ENVIAR </button>
         </form>

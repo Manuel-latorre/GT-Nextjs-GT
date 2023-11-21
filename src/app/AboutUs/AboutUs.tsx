@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 
 const AboutUs = () => {
   return (
-    <div className={montserrat.className} style={{marginTop:100}}>
+    <div className={montserrat.className} style={{marginTop:50}}>
 
     <div className='divAboutUs' id='nosotros'>
 

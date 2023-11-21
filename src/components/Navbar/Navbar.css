@@ -1,47 +1,13 @@
 .navbar{
-    height: 110px;
+    height: 90px;
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     z-index: 9999;
     position: sticky;
 }
 
-.navbarUi{
-    height: 200px;
-    background-color: transparent;
-
-}
-
-
-
-
-
-.mobilNavMenu{
-    background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border: solid 1px rgba(222, 218, 218, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    border-radius: 0;
-    top: 100px;
-}
-
-.navbarItemsContainer{
-    display: flex;
-    justify-content: space-around;
-}
-
-/* .logoNav{
-    width: 400px;
-} */
-
-.toggleMenuNavbar{
-    display: none;
-}
 
 .scrolled {
     background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
@@ -55,13 +21,6 @@
   }
 
 
-.generacion{
-    font-size: 35px;
-}
-
-.tech{
-    color: #00fff5;
-}
 .nav_items{
     display: flex;
 }
@@ -76,7 +35,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     overflow: hidden;
     transition: 0.5s;
     margin: 10px;
@@ -84,8 +43,56 @@
 }
 
 .btnNav:hover{
-   color: cyan;
-}
+    color: white;
+    background:  #47fff94c; 
+    box-shadow: 0 0 10px #19fff6, 0 0 40px #19fff6, 0 0 80px #19fff6;
+    transition-delay: 1s;
+    border: none;
+    border-radius: none;
+ }
+ 
+ 
+ .btnNav span{
+     position: absolute;
+     display: block;
+ }
+ 
+ .btnNav span:nth-child(1) {
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg, transparent, #19fff6);
+ }
+ 
+ .btnNav:hover span:nth-child(1){
+     left: 100%;
+     transition: 1s;
+ 
+ }
+ 
+ .btnNav span:nth-child(3) {
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(270deg, transparent, #19fff6);
+ }
+ 
+ .btnNav:hover span:nth-child(3){
+     right: 100%;
+     transition: 1s;
+     transition-delay: 0.5s;
+ 
+ }
+ 
+ .btnNav span:nth-child(2) {
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(180deg, transparent, #19fff6);
+ }
 
 
 .logo {
@@ -99,10 +106,10 @@
     display: none;
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1270px){
     .nav_items{
         position: absolute;
-        top: 110px;
+        top: 90px;
         left: 0;
         display: flex;
         flex-direction: column;
@@ -149,11 +156,20 @@
     .nav_toggle.open > span:nth-child(3){
         transform: rotate(-45deg) translate(-5px, 1px);
     }
+    .logo{
+        width: 200px;
+    }
 }
 
 @media(max-width:500px){
     .nav_toggle{
         margin-right: 10px;
+    }
+    .navbar{
+        height: 70px;
+    }
+    .nav_items{
+        top: 70px;
     }
     
 }

@@ -6,6 +6,8 @@ import '../../app/Faqs/Faqs.css'
 export default function PreguntasFrecuentesCe() {
 
   return (
+    <div>
+        <p style={{textAlign:'center', fontSize:30, marginBottom:50}}>PREGUNTAS FRECUENTES</p>
     <div className="accordion_preguntas">
         <Accordion variant="bordered">
             <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="¿Qué es el comercio electrónico y cómo funciona?">
@@ -19,6 +21,7 @@ export default function PreguntasFrecuentesCe() {
                 En Generación Tech contamos con un área especializada en la realización de todo tipo de campaña de Marketing, adaptando constantemente los objetivos al comportamiento de los usuarios.
             </AccordionItem>
         </Accordion>
+    </div>
     </div>
   );
 }

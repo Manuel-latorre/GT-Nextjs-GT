@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import {Accordion, AccordionItem} from "@nextui-org/react";
 import { Montserrat } from 'next/font/google'
-import BeneficiosMobile from '@/components/BeneficiosMobile/BeneficiosMobile';
+import {ScrollShadow} from "@nextui-org/react";
 import ContactoFaqs from '@/app/Faqs/ContactoFaqs';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -53,59 +53,66 @@ export default function MarketingDigital(){
                         <SwiperSlide>
                             <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Gestión de Redes Sociales y generación de contenido</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Nuestro equipo de gestión de redes sociales y generación de contenido trabaja para construir y mantener una presencia efectiva en línea. Nuestro enfoque en la comunicación, el branding, el marketing y el análisis pretende contribuir al éxito y la visibilidad de su empresa en el mundo digital, donde la interacción con la audiencia es clave para el crecimiento.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <SocialMedia/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>Nuestro equipo de gestión de redes sociales y generación de contenido trabaja para construir y mantener una presencia efectiva en línea. Nuestro enfoque en la comunicación, el branding, el marketing y el análisis pretende contribuir al éxito y la visibilidad de su empresa en el mundo digital, donde la interacción con la audiencia es clave para el crecimiento.</p>  
+                                        <SocialMedia/> 
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Optimización de motores de búsqueda (SEO)</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        La optimización de motores de búsqueda SEO se refiere a las estrategias y técnicas utilizadas para mejorar la visibilidad y la clasificación de un sitio web en los resultados de los motores de búsqueda como Google, Bing o Yahoo, busca mejorar la posición orgánica de un sitio web de manera gratuita.
-                                        Nuestro equipo de especialistas en SEO busca maximizar su visibilidad en línea, atraer tráfico de calidad y crear las condiciones adecuadas para que los usuarios interactúen y se conviertan en clientes.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Seo/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className='textService'>La optimización de motores de búsqueda SEO se refiere a las estrategias y técnicas utilizadas para mejorar la visibilidad y la clasificación de un sitio web en los resultados de los motores de búsqueda como Google, Bing o Yahoo, busca mejorar la posición orgánica de un sitio web de manera gratuita.
+                                            Nuestro equipo de especialistas en SEO busca maximizar su visibilidad en línea, atraer tráfico de calidad y crear las condiciones adecuadas para que los usuarios interactúen y se conviertan en clientes.</p>
+                                            <Seo/> 
+                                    </div>  
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Email Marketing</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Nuestro equipo de marketing evalúa contenido relevante para atraer audiencia, planifica y ejecuta estrategias de distribución de contenido, monitoriza el rendimiento del contenido mediante herramientas analíticas, identifica áreas de mejora y ajusta las estrategias en función de los datos recopilados para lograr el mejor rendimiento y alcance.
-                                        Priorizamos la capacitación constante, la innovación y la mejora continua, pilares fundamentales para el éxito en el entorno digital altamente competitivo de hoy.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Email/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className="textService">
+                                            Nuestro equipo de marketing evalúa contenido relevante para atraer audiencia, planifica y ejecuta estrategias de distribución de contenido, monitoriza el rendimiento del contenido mediante herramientas analíticas, identifica áreas de mejora y ajusta las estrategias en función de los datos recopilados para lograr el mejor rendimiento y alcance.
+                                            Priorizamos la capacitación constante, la innovación y la mejora continua, pilares fundamentales para el éxito en el entorno digital altamente competitivo de hoy.
+                                        </p>
+                                        <Email/>
+                                    </div>
+                                </ScrollShadow>  
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Marketing de contenido</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        Nuestro equipo de optimización está preparado para abordar estos desafíos y hacer que los objetivos de marketing se cumplan en un mundo digital altamente competitivo. 
-                                    </AccordionItem>
-                                    </Accordion>
-                                <MarketingContent/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className="textService">
+                                            Nuestro equipo de optimización está preparado para abordar estos desafíos y hacer que los objetivos de marketing se cumplan en un mundo digital altamente competitivo. 
+                                        </p>
+                                        <MarketingContent/> 
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Optimización de motores de búsqueda (SEM)</p>
-                                <Accordion className='accordion_card' variant="bordered" isCompact>
-                                    <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="Leer más">
-                                        El SEM es una estrategia digital que implica el uso de anuncios pagados para aumentar la visibilidad de un sitio web en los resultados de búsqueda de los motores como Google, es crucial para empresas que buscan una presencia online efectiva y rápida. Proporciona una herramienta valiosa para aumentar la visibilidad, atraer tráfico calificado y alcanzar objetivos de marketing en un corto período de tiempo.
-                                        Nuestro equipo de optimización está preparado para abordar estos desafíos y hacer que los objetivos de marketing se cumplan en un mundo digital altamente competitivo.
-                                    </AccordionItem>
-                                    </Accordion>
-                                <Sem/>
+                                <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
+                                    <div className='container_service_info'>
+                                        <p className="textService">
+                                            El SEM es una estrategia digital que implica el uso de anuncios pagados para aumentar la visibilidad de un sitio web en los resultados de búsqueda de los motores como Google, es crucial para empresas que buscan una presencia online efectiva y rápida. Proporciona una herramienta valiosa para aumentar la visibilidad, atraer tráfico calificado y alcanzar objetivos de marketing en un corto período de tiempo.
+                                            Nuestro equipo de optimización está preparado para abordar estos desafíos y hacer que los objetivos de marketing se cumplan en un mundo digital altamente competitivo.
+                                        </p>
+                                    
+                                        <Sem/>
+                                    </div>
+                                </ScrollShadow>
                             </div>
                         </SwiperSlide>
                 </Swiper>
@@ -151,8 +158,8 @@ export default function MarketingDigital(){
                    
             </div>
             <div className='preguntas_frecuentes'>
-                <ContactoFaqs/>
                 <PreguntasFrecuentesMd/>
+                <ContactoFaqs/>
             </div>
         </div>
     )

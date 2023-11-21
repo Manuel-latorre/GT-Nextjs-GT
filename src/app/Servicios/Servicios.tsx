@@ -5,11 +5,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Montserrat } from 'next/font/google';
 import {Button} from "@nextui-org/react";
+import Loader from '../../components/Loader/Loader';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import Link from 'next/link';
 import './Servicios.css'
 import 'swiper/css';
 import 'swiper/css/pagination';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import Link from 'next/link';
+import { useState } from 'react';
 
 
 const montserrat = Montserrat({
@@ -19,11 +21,22 @@ const montserrat = Montserrat({
 
 
 export default function Servicios(){
+    const [showLoader, setShowLoader] = useState(false);
+
+    const handleLoader = () => {
+        setShowLoader(true);
+    
+        setTimeout(() => {
+            setShowLoader(false);
+        }, 1000);
+    
+    };
+
     return (
-        <div className={montserrat.className}>
+        <div className={montserrat.className} id='servicios'>
             <Swiper
                     slidesPerView={1}
-                    spaceBetween={30}
+                    spaceBetween={15}
                     autoplay={{
                         delay:5000
                     }}
@@ -31,8 +44,9 @@ export default function Servicios(){
                         900:{
                             slidesPerView: 2
                         },
-                        1600: {
-                            slidesPerView: 3
+                        1400: {
+                            slidesPerView: 3,
+                            spaceBetween:10
                         }
                     }}
                     modules={[Autoplay]}
@@ -65,7 +79,7 @@ export default function Servicios(){
                                         <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Website Testing</p>
                                     </div>
                                 </li>
-                             <Button style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/desarrollo-software' as={Link}>
+                             <Button onClick={handleLoader} style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/desarrollo-software' as={Link}>
                                  Explorar
                              </Button>
                             </div>
@@ -96,7 +110,7 @@ export default function Servicios(){
                                         <p style={{marginLeft: 7, textAlign:'start', fontSize:14}}>Optimización de motores de búsqueda SEM.</p>
                                     </div>
                                 </li>                     
-                          <Button style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/marketing-digital' as={Link}>
+                          <Button onClick={handleLoader} style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/marketing-digital' as={Link}>
                               Explorar
                          </Button>
                         
@@ -129,12 +143,13 @@ export default function Servicios(){
                                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Análisis de comportamiento de cliente</p>
                                       </div>
                                     </li>
-                                  <Button style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/comercio-electronico' as={Link}>
+                                  <Button onClick={handleLoader} style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/comercio-electronico' as={Link}>
                                       Explorar
                                   </Button>
                              </div>
                         </SwiperSlide>
                 </Swiper>
+                {showLoader && <Loader />}
         </div>
     )
 }
