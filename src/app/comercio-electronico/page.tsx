@@ -80,7 +80,7 @@ export default function MarketingDigital(){
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className='card_container'>
-                                <p style={{color:'cyan', margin:20, fontSize:20}}>Métricas Y KPI'S</p>
+                                <p style={{color:'cyan', margin:20, fontSize:20}}>Métricas Y KPIS</p>
                                 <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                     <div className='container_service_info'>
                                         <p className='textService'>Nuestro equipo de e-mail marketing ejerce un papel esencial en el proceso de relación, la adquisición de nuevos clientes y la generación de ingresos. Contamos con capacidad para diseñar, ejecutar y optimizar campañas de e-mail marketing efectivas clave para el éxito en el marketing digital, ya que permite llegar a la audiencia de manera personalizada y medible.</p>                                  
