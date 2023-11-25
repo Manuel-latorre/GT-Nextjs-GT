@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 
 const ContactoFaqs = () => {
   return (
-    <div className={montserrat.className} id='faqs'>
+    <div className={montserrat.className}>
         <div className='container-faqs-solucion'>
             <div className='container-texto-faqs'>
                 <p className='titulo-faqs'>¿No encontraste la respuesta que buscabas?</p>

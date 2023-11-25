@@ -57,6 +57,9 @@ const Navbar = () => {
     };
   }, [shouldCloseMenu]);
 
+  
+
+
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`} ref={navRef}>
       <div>
@@ -93,6 +96,13 @@ const Navbar = () => {
             <span></span>
             <span></span>
           FAQs
+        </Link>
+        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/#equipo">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          Equipo
         </Link>
         <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/#contacto">
             <span></span>

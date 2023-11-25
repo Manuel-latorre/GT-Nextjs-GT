@@ -14,10 +14,10 @@ const montserrat = Montserrat({
 
 export default function Faqs() {
   return (
-    <div className={montserrat.className} style={{marginTop: 100}}>
+    <div className={montserrat.className} style={{marginTop: 100}} id='faqs'>
       <p style={{textAlign:'center', fontSize:30, marginBottom:50}}>PREGUNTAS FRECUENTES</p>
       <div className="accordion">
-        <Accordion variant="bordered">
+        <Accordion variant="bordered" isCompact>
           <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="¿Cómo puedo ponerme en contacto con ustedes?">
             Podes contactarnos completando el formulario desde la sección de “contacto” o simplemente tocar en el botón de chat de nuestra página para hablar con un representante en tiempo real.
           </AccordionItem>

@@ -54,7 +54,7 @@ const AboutUs = () => {
       </div>
     </main>
     </div>
-    <p className='textBienvenidosEra'>¡Bienvenido a una nueva era de posibilidades para su negocio!</p>
+    <p id='servicios' className='textBienvenidosEra'>¡Bienvenido a una nueva era de posibilidades para su negocio!</p>
     </div>
   )
 }

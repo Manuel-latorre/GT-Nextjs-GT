@@ -23,6 +23,7 @@ const Footer = () => {
                 <a style={{padding:4}} href='/quienes-somos'>Quienes somos</a>
                 <a style={{padding:4}} href='/#servicios'>Servicios</a>
                 <a style={{padding:4}} href='/#faqs'>FAQs</a>
+                <a style={{padding:4}} href='/#equipo'>Equipo</a>
                 <a style={{padding:4}} href='/#contacto'>Contacto</a>
             </div>
           </div>

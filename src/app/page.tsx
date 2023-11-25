@@ -4,6 +4,8 @@ import Faqs from '@/app/Faqs/Faqs'
 import Contacto from "@/components/Contacto/Contacto"
 import Servicios from '@/app/Servicios/Servicios'
 import { Montserrat } from 'next/font/google'
+import Equipo from '@/components/Equipo/Equipo'
+
 
 
 const montserrat = Montserrat({
@@ -18,6 +20,7 @@ export default function Home() {
       <Servicios/>
       <Faqs/>
       <ContactoFaqs/>
+      <Equipo/>
       <Contacto/>
     </div>
   )
