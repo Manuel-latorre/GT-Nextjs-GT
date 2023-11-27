@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutUs.css'
 import Image from 'next/image'
-import note from '../../assets/note.png'
+import note from '../../assets/gtNew.png'
 import { Montserrat } from 'next/font/google'
 import Link from 'next/link'
 
@@ -50,7 +50,7 @@ const AboutUs = () => {
       </div>
 
       <div className='note_container'>
-        <Image src={note} alt='note'/>
+        <Image width={600} src={note} alt='note'/>
       </div>
     </main>
     </div>
