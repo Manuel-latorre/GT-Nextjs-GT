@@ -21,7 +21,7 @@ const AboutUs = () => {
     <main className='main'>
       <div className='aboutText'>
         
-          <h1>! Bienvenidos  a Generacion <strong style={{color:'#00fff5'}}>Tech</strong> !</h1>
+          <h1>! Bienvenidos a Generación <strong style={{color:'#00fff5'}}>Tech</strong> !</h1>
           
         
         <h4 style={{fontWeight:400, textAlign:"center", fontSize:18}}>Transformando ideas en soluciones digitales</h4>
