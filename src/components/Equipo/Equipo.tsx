@@ -51,11 +51,11 @@ export default function App() {
             <div className="cardEquipo">
                 <div className='imageCardEquipo'>
                     <Image width={150} src={damian} alt='guiso'/>
-                    <p style={{fontSize:20, fontWeight:'bolder', color:'cyan'}}>Damián Gomez</p>
+                    <p style={{fontSize:20, fontWeight:'bolder', color:'cyan'}}>Damián Gómez</p>
                 </div>
                 <div className='rolContainer'>
                     <div style={{marginTop:10}}>
-                        <p className='rol'>Marketing Manager</p>
+                        <p className='rol'>Director Operativo</p>
                         <p className='rolDescription'>Desarrollo las estrategias de comunicación para los canales digitales.</p>
                     </div>
                     <div style={{marginTop:20}}>
@@ -72,11 +72,11 @@ export default function App() {
             <div className="cardEquipo">
                 <div className='imageCardEquipo'>
                     <Image width={150} src={walter} alt='guiso'/>
-                    <p style={{fontSize:20, fontWeight:'bolder', color:'cyan'}}>Walter Gomez</p>
+                    <p style={{fontSize:20, fontWeight:'bolder', color:'cyan'}}>Walter Gómez</p>
                 </div>
                 <div className='rolContainer'>
                     <div style={{marginTop:10}}>
-                        <p className='rol'>Marketing Manager</p>
+                        <p className='rol'>Director Ejecutivo</p>
                         <p className='rolDescription'>Desarrollo las estrategias de comunicación para los canales digitales.</p>
                     </div>
                     <div style={{marginTop:20}}>
@@ -118,7 +118,7 @@ export default function App() {
                 </div>
                 <div className='rolContainer'>
                     <div style={{marginTop:10}}>
-                        <p className='rol'>Fullstack Developer</p>
+                        <p className='rol'>Manager Technology</p>
                         <p className='rolDescription'>Colaboro en el desarrollo de soluciones y sitios webs tanto en el Frontend como en el Backend</p>
                     </div>
                     <div style={{marginTop:20}}>
@@ -138,7 +138,7 @@ export default function App() {
                 </div>
                 <div className='rolContainer'>
                     <div style={{marginTop:10}}>
-                        <p className='rol'>Fullstack Developer</p>
+                        <p className='rol'>Desarrolladora Backend</p>
                         <p className='rolDescription'>Encargada del manejo de informacion y estructura de Bases de Datos</p>
                     </div>
                     <div style={{marginTop:20}}>
@@ -154,11 +154,11 @@ export default function App() {
             <div className="cardEquipo">
                 <div className='imageCardEquipo'>
                     <Image width={150} src={guiso} alt='guiso'/>
-                    <p style={{fontSize:20, fontWeight:'bolder', color:'cyan'}}>Lucas Rius</p>
+                    <p style={{fontSize:20, fontWeight:'bolder', color:'cyan'}}>Lucas Benjamín Rius</p>
                 </div>
                 <div className='rolContainer'>
                     <div style={{marginTop:10}}>
-                        <p className='rol'>Fullstack Developer</p>
+                        <p className='rol'>Desarrollador Backend</p>
                         <p className='rolDescription'>Encargado del manejo de informacion y estructura de Bases de Datos</p>
                     </div>
                     <div style={{marginTop:20}}>
@@ -178,7 +178,7 @@ export default function App() {
                 </div>
                 <div className='rolContainer'>
                     <div style={{marginTop:10}}>
-                        <p className='rol'>Frontend Developer</p>
+                        <p className='rol'>Desarrollador Frontend</p>
                         <p className='rolDescription'>Diseño, desarrollo y mantengo los sitios webs del lado del cliente</p>
                     </div>
                     <div style={{marginTop:20}}>
@@ -198,7 +198,7 @@ export default function App() {
                 </div>
                 <div className='rolContainer'>
                     <div style={{marginTop:10}}>
-                        <p className='rol'>Frontend Developer</p>
+                        <p className='rol'>Desarrollador Frontend</p>
                         <p className='rolDescription'>Diseño, desarrollo y mantengo los sitios webs del lado del cliente</p>
                     </div>
                     <div style={{marginTop:20}}>
