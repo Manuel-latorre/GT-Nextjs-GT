@@ -1,34 +1,36 @@
 .main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    width: 80%;
-    margin: auto;
-    padding: 35px;
+   margin-bottom: 300px;
 }
-
-
-
+  
+.imageMac{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    transform: translateY(-50%);
+    max-width: 100%; /* Ajusta según sea necesario */
+}
 .aboutText{
-    width: 70%;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 140px;
 }
 
 .aboutText h1{
-    font-size: 30px;
+    font-size: 122px;
     font-weight: 500;
     padding: 10px;
     font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 19%;
+    z-index: 1;
 }
-
+.trans{
+    font-weight: 100;
+    padding-left: 20px;
+    font-size: 22px;
+}
 .btnAbout{
     margin-top: 50px;
     display: flex;

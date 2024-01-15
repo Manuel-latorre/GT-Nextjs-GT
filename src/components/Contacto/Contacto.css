@@ -11,14 +11,12 @@
 }
 .inputForm{
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.76); 
+    background-color: #393939; 
     border-radius: 10px;
     border: none;
     margin: 20px;
     width: 60%; 
-    border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: #00fff5;
     line-height: 28pt;
 }
 
@@ -28,10 +26,8 @@
     height: 300px;
     width: 60%;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.76); 
-    border-bottom-style: solid;
+    background-color:  #393939; 
     border-bottom-width: 2px;
-    border-bottom-color: #00fff5;
     line-height: 28pt;
 }
 

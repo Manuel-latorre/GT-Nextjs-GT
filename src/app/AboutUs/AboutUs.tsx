@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutUs.css'
 import Image from 'next/image'
-import note from '../../assets/gtNew.png'
+import mac from '../../assets/Rectangle.svg'
 import { Montserrat } from 'next/font/google'
 import Link from 'next/link'
 
@@ -20,16 +20,10 @@ const AboutUs = () => {
 
     <main className='main'>
       <div className='aboutText'>
-        
-          <h1>! Bienvenidos a Generación <strong style={{color:'#00fff5'}}>Tech</strong> !</h1>
-          
-        
-        <h4 style={{fontWeight:400, textAlign:"center", fontSize:18}}>Transformando ideas en soluciones digitales</h4>
-        <hr style={{width: '80%', margin:'auto', marginTop:'3%', marginBottom:'3%'}}/>
-        <div style={{width:'85%', textAlign:'start', margin:'auto', marginTop: 20}}>
-          <p> Somos Generación Tech, una empresa innovadora especializada en desarrollos y servicios tecnológicos. Nuestro equipo integrado por jóvenes profesionales está dispuesto a llevar tu negocio al siguiente nivel  “El Mercado Digital”</p>
+        <div style={{display:"flex",flexDirection:"column"}}>
+        <h1 className={`${montserrat.className} gt`}>GENERACIÓN <br /> <span style={{color:"#00FFFC"}}>TECH</span></h1>
+        <p className={`${montserrat.className} trans`}>TRANSFORMANDO IDEAS EN   <span style={{color:"#00FFFC"}}>SOLUCIONES DIGITALES</span></p>
         </div>
-
         <div className='btnAbout'>
         <Link className='btnContactame' href="/quienes-somos">
             <span></span>
@@ -37,24 +31,12 @@ const AboutUs = () => {
             <span></span>
             <span></span>
             ¿Quienes Somos?
-        </Link>
-        <a className='btnContactame' href="#contacto">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Contacto
-        </a>
-                              
+        </Link>                              
         </div>
       </div>
-
-      <div className='note_container'>
-        <Image width={600} src={note} alt='note'/>
-      </div>
+        <Image width={700} src={mac} alt='note' className='imageMac'/>
     </main>
     </div>
-    <p id='servicios' className='textBienvenidosEra'>¡Bienvenido a una nueva era de posibilidades para su negocio!</p>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import Contacto from "@/components/Contacto/Contacto"
 import Servicios from '@/app/Servicios/Servicios'
 import { Montserrat } from 'next/font/google'
 import Equipo from '@/components/Equipo/Equipo'
+import Quien from './quienes-somos/Quien'
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <div className={montserrat.className}>
       <AboutUs/>
+      <Quien/>
       <Servicios/>
       <Faqs/>
       <ContactoFaqs/>

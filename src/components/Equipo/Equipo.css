@@ -1,7 +1,5 @@
-
-
 .mySwiperEquipo{
-  width: 90%;
+  width: 78%;
   margin: auto;
 }
 
@@ -14,29 +12,32 @@
     padding: 15px;
     width: auto;
     height: auto;
+    min-height: 520px;
     border-radius: 10px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
   }
-
+  #black{
+    background-color: #555555;
+  }
+  #green{
+    background-color: #00B6AF;
+  }
   .rol{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    margin-bottom: 15px;
+    font-size: 22px;
+    color: #C6C0C0;
+    font-weight: bold;
   }
 
   .rolDescription{
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10px;
     width: 90%;
     margin: auto;
-    color: rgb(123, 245, 245);
+    color: #555555;
   }
 
   .imageCardEquipo{
-    background:linear-gradient(rgba(0, 255, 255, 0.278), rgba(0, 255, 255, 0.069), rgba(0, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -49,10 +50,6 @@
   }
 
   .rolContainer{
-    background:linear-gradient(360deg, rgba(0, 255, 255, 0.278), rgba(0, 255, 255, 0.069), rgba(0, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     width: 100%;
     display: flex;
     flex-direction: column;

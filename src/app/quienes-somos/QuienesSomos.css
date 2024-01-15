@@ -1,55 +1,22 @@
 .quienesSomos{
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 100px;
+    font-size: 52px;
+    font-weight: 500;
+    text-align: left;
+}
+.AboutTexting{
     margin-bottom: 100px;
 }
-
-.quienesSomos_descripcion{
-    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    border: 1px solid rgba(128, 128, 128, 0.287);
-
-    width: 80%;
-    padding: 20px;
-    margin: auto;
+.AboutTexting p{
     font-size: 20px;
+    font-weight: 400;
+    width: 1000px;
 }
-
-.frase{
-    font-size: 40px;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.quienesSomos_card{
-    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    width: 400px;
-    padding: 20px;
-    margin: 30px;
-    border: 1px solid rgba(128, 128, 128, 0.287);
-
-}
-
-.quienesSomos_benef{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-@media(max-width:500px){
-    .quienesSomos_card{
-        width: auto;
-    }
+.botonAbout{
+    margin: 20px;
+    border: 1px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
 }
