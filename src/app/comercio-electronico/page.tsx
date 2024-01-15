@@ -56,7 +56,7 @@ export default function MarketingDigital(){
                                 <p style={{color:'cyan', margin:20, fontSize:20}}>Auditoría Web</p>
                                 <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                         <div className='container_service_info'>
-                                            <p className='textService'>Nuestra área de Comercio Electrónico está integrada por un equipo de profesionales especializados en auditorias de canales digitales. Hacemos seguimientos, revisiones y análisis de cada canal solicitado en la búsqueda de fallas que obstaculicen la navegación, la usabilidad, la velocidad de carga, la interacción, y la seguridad. Elevamos informes de resultados y proponemos nuestras soluciones.</p>
+                                            <p className='textService'>Nuestra área de Comercio Electrónico está integrada por un equipo de profesionales especializados en auditorías de canales digitales. Hacemos seguimientos, revisiones y análisis de cada canal solicitado en la búsqueda de fallas que obstaculicen la navegación, la usabilidad, la velocidad de carga, la interacción, y la seguridad. Elevamos informes de resultados y proponemos nuestras soluciones.</p>
                                             <AudiWeb/>
                                         </div>
                                 </ScrollShadow>
@@ -69,7 +69,7 @@ export default function MarketingDigital(){
                                     <div className='container_service_info'>
                                         <p className='textService'>
                                             Generación Tech nació con el propósito de brindar soluciones digitales y nuestro servicio de auditoría social media en este sentido es crucial para que las empresas alcancen los resultados esperados.
-                                            Evaluamos e informamos el estado de situación de su marca, analizamos su presencia en linea, su imagen, su tono de voz, su reputación y el impacto de sus estrategias.
+                                            Evaluamos e informamos el estado de situación de su marca, analizamos su presencia en línea, su imagen, su tono de voz, su reputación y el impacto de sus estrategias.
                                             Aplicamos métricas y  Kpis  para la elaboración de nuestros informes.
                                             La auditoría Social Media es una inversión, ya que contribuye directamente a la adquisición y retención de clientes.
                                         </p>                                 

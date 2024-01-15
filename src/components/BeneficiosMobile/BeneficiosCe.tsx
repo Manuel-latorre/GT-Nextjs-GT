@@ -28,7 +28,7 @@ export default function BeneficiosMobileCe (){
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='beneficios_card'>
-                                <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>OPTIMIZACIÓN DE LA CONVERCIÓN</p>
+                                <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>OPTIMIZACIÓN DE LA CONVERSIÓN</p>
                                 <p>Nos enfocamos en mejorar la tasa de conversión, lo que significa que trabajar en la optimización de su sitio web para convertir visitantes en clientes. Esto incluye mejoras en el proceso de compra, el diseño y la usabilidad</p>
                             </div>
                         </SwiperSlide>

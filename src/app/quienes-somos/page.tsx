@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 export default function QuienesSomos(){
     return(
         <div className={montserrat.className}>
-            <p className='quienesSomos'>¿Quienes Somos?</p>
+            <p className='quienesSomos'>¿Quiénes Somos?</p>
             <div className='quienesSomos_descripcion'>
                 <p>
                     Somos un apasionado grupo de jóvenes amantes de la tecnología que ha unido fuerzas para impulsar a las empresas hacia el futuro digital. Nuestro equipo vibra con la emoción de la innovación y está aquí para transformar su visión en realidad a través del desarrollo de software y la gestión de canales digitales.

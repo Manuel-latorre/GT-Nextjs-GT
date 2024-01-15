@@ -27,7 +27,7 @@ export default function Faqs() {
           <AccordionItem className="accordionItem" key="3" aria-label="Accordion 3" title="¿Puedo tener un pack personalizado?">
             Si, contactanos y te asesoramos para armar un pack personalizado según tus necesidades.
           </AccordionItem>
-          <AccordionItem className="accordionItem" key="4" aria-label="Accordion 4" title="¿En cuanto tiempo tendré listo mi proyecto?">
+          <AccordionItem className="accordionItem" key="4" aria-label="Accordion 4" title="¿En cuánto tiempo tendré listo mi proyecto?">
             Depende. Según el servicio elegido, la complejidad del proyecto, y las funcionalidades se va a estipular un tiempo de entrega.
           </AccordionItem>
         </Accordion>

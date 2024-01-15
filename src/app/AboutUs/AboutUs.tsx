@@ -30,7 +30,7 @@ const AboutUs = () => {
             <span></span>
             <span></span>
             <span></span>
-            ¿Quienes Somos?
+            ¿Quiénes Somos?
         </Link>                              
         </div>
       </div>

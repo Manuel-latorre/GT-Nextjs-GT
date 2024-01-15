@@ -120,7 +120,7 @@ export default function Servicios(){
                             </SwiperSlide>
                             <SwiperSlide>
                             <div className="cardServicio">
-                                    <p className='tituloCard'>COMERCIO <br/> ELECTRONICO</p>
+                                    <p className='tituloCard'>COMERCIO <br/> ELECTRÓNICO</p>
                                         <li>
                                     <hr />
 

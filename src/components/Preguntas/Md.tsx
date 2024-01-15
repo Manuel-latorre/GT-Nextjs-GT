@@ -20,7 +20,7 @@ export default function PreguntasFrecuentesMd() {
                     Al contratar Generación Tech, obtendrá la garantía de un trabajo profesional, eficiente y de calidad. Además, cuentas con el apoyo y la experiencia de un equipo multidisciplinario que lo asesorará y lo acompañará en todo el proceso.
                 </AccordionItem>
                 <AccordionItem className="accordionItem" key="4" aria-label="Accordion 3" title="¿Qué tipo de contenido debo generar para mi página web y mis redes sociales?">
-                    El contenido que genere debe ser relevante, original, atractivo y de valor para su audiencia. Debe responder a los  intereses y necesidades de los potenciales clientes. Estos contenidos deben estar optimizado para los motores de búsqueda (SEO) y adaptado al formato y al tono de cada medio.
+                    El contenido que genere debe ser relevante, original, atractivo y de valor para su audiencia. Debe responder a los intereses y necesidades de los potenciales clientes. Estos contenidos deben estar optimizados para los motores de búsqueda (SEO) y adaptados al formato y al tono de cada medio.
                 </AccordionItem>
             </Accordion>
         </div>

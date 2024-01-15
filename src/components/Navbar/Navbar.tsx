@@ -81,7 +81,7 @@ const Navbar = () => {
             <span></span>
             <span></span>
             <span></span>
-          Quienes somos
+          Quiénes somos
         </Link>
         <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/#servicios">
             <span></span>

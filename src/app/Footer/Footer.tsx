@@ -20,7 +20,7 @@ const Footer = () => {
             <h3 style={{fontSize:20, fontWeight:'bold'}}>Links</h3>
             <div className="linksFooter">
                 <a style={{padding:4}} href='/'>Inicio</a>
-                <a style={{padding:4}} href='/quienes-somos'>Quienes somos</a>
+                <a style={{padding:4}} href='/quienes-somos'>Quiénes somos</a>
                 <a style={{padding:4}} href='/#servicios'>Servicios</a>
                 <a style={{padding:4}} href='/#faqs'>FAQs</a>
                 <a style={{padding:4}} href='/#equipo'>Equipo</a>

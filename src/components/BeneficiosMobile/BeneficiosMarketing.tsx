@@ -41,7 +41,7 @@ export default function BeneficiosMobileMk (){
                         <SwiperSlide>
                             <div className='beneficios_card'>
                                 <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>RESULTADOS MEDIBLES</p>
-                                <p>El marketing digital permite un seguimiento preciso de los resultados y el retorno de la inversión (ROI). Desde Generación Tech proporcionamos  informes detallados y métricas para evaluar el rendimiento de tus campañas.</p>
+                                <p>El marketing digital permite un seguimiento preciso de los resultados y el retorno de la inversión (ROI). Desde Generación Tech proporcionamos informes detallados y métricas para evaluar el rendimiento de tus campañas.</p>
                             </div>
                         </SwiperSlide>
                 </Swiper>

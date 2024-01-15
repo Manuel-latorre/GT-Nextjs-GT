@@ -35,7 +35,7 @@ export default function BeneficiosMobile (){
                         <SwiperSlide>
                             <div className='beneficios_card'>
                                 <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>PROPIEDAD TOTAL</p>
-                                <p>Cuando creas su sitio web con programación propia, tiene la propiedad total de todo el código y los activos relacionados. Esto significa que no está  limitado por restricciones de licencia y puede  hacer cambios o mejoras en cualquier momento.</p>
+                                <p>Cuando creas su sitio web con programación propia, tiene la propiedad total de todo el código y los activos relacionados. Esto significa que no está limitado por restricciones de licencia y puede hacer cambios o mejoras en cualquier momento.</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>

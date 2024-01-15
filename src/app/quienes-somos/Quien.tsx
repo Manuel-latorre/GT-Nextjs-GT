@@ -20,7 +20,7 @@ function Quien() {
         Somos un apasionado grupo de jóvenes amantes de la tecnología que ha unido fuerzas para impulsar a las empresas hacia el futuro digital. Nuestro equipo vibra con la emoción de la innovación y está aquí para transformar su visión en realidad a través del desarrollo de software y la gestión de canales digitales. En Generación Tech, no solo hablamos el lenguaje de la tecnología, ¡lo vivimos y lo respiramos! Estamos encantados de trabajar con empresas que buscan adaptarse y prosperar en el mundo digital en constante cambio. Nuestra misión es llevar la creatividad y la eficiencia a cada proyecto que emprendemos.
         </p>
         <cite style={{color:"#00FFFC"}}>“Para Generación Tech una buena planificación es la clave del éxito.”</cite>
-        <button className='botonAbout'>Leer mas</button>
+        <button className='botonAbout'>Leer más</button>
     </div>
     </div>
   )
