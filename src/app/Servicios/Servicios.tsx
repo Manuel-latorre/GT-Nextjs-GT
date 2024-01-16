@@ -54,6 +54,8 @@ export default function Servicios(){
                         modules={[Autoplay]}
                         loop={true}
                         className="mySwiperServices"
+                        id='servicios'
+                        style={{paddingTop:110}}
                         >
                             <SwiperSlide>
                                 <div className='cardServicio'>
@@ -81,7 +83,7 @@ export default function Servicios(){
                                             <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Website Testing</p>
                                         </div>
                                     </li>
-                                <Button onClick={handleLoader} style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/desarrollo-software' as={Link}>
+                                <Button onClick={handleLoader} style={{marginTop:20, background:"none", border:"1px solid white", color:"white" }}  variant="solid" href='/desarrollo-software' as={Link}>
                                     Explorar
                                 </Button>
                                 </div>
@@ -112,7 +114,7 @@ export default function Servicios(){
                                             <p style={{marginLeft: 7, textAlign:'start', fontSize:14}}>Optimización de motores de búsqueda SEM.</p>
                                         </div>
                                     </li>                     
-                            <Button onClick={handleLoader} style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/marketing-digital' as={Link}>
+                            <Button onClick={handleLoader} style={{marginTop:20, background:"none", border:"1px solid white", color:"white" }}  variant="solid" href='/marketing-digital' as={Link}>
                                 Explorar
                             </Button>
                             
@@ -145,7 +147,7 @@ export default function Servicios(){
                                             <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Análisis de comportamiento de cliente</p>
                                         </div>
                                         </li>
-                                    <Button onClick={handleLoader} style={{marginTop:20, backgroundColor:'cyan'}}  variant="solid" href='/comercio-electronico' as={Link}>
+                                    <Button onClick={handleLoader} style={{marginTop:20, background:"none", border:"1px solid white", color:"white" }}  variant="solid" href='/comercio-electronico' as={Link}>
                                         Explorar
                                     </Button>
                                 </div>

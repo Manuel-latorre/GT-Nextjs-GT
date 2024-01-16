@@ -76,7 +76,7 @@ const Navbar = () => {
             <span></span>
           Inicio
         </Link>
-        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/quienes-somos">
+        <Link onClick={() => { handleNosotrosClick(); setIsOpen(false); }} className='btnNav' href="/#WHO">
             <span></span>
             <span></span>
             <span></span>

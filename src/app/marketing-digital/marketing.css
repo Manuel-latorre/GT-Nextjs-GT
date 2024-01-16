@@ -1,0 +1,94 @@
+.marketingContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionTitle{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+.windSection {
+    width: 750px;
+    position: fixed;
+    z-index: 1;
+    top: 10;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #393939;
+    box-shadow: 20px 13px 0px 1px rgba(0,255,252,1);
+    -webkit-box-shadow: 20px 13px 0px 1px rgba(0,255,252,1);
+    -moz-box-shadow: 20px 13px 0px 1px rgba(0,255,252,1);
+}
+.sectionContainerM{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section1M{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 520px;
+    height: 366px;
+    margin: 10px;
+}
+.section2M{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555555;
+    width: 520px;
+    height: 366px;
+    margin: 10px;
+}
+.section3M{
+    background-color: #01c2bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 366px;
+    margin: 10px;
+}
+.section4M{
+    background-color: #CC2525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 366px;
+    margin: 10px;
+    padding: 40px;
+}
+
+.gestionTitulo{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.gestionSubtitulo{
+    color: black;
+    font-size: 24px;
+}
+.containerTextMarketing{
+    margin: 30px;
+    width: 790px;
+    text-align: center;
+}
+.tituloExpMark{
+    color: #00FFFC;
+    font-size: 30px;
+    font-weight: 600;
+}
+.textoParrafo{
+    font-size: 18;
+    font-weight: 400;
+    line-height: 2.2;
+}

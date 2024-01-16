@@ -25,7 +25,7 @@ const AboutUs = () => {
         <p className={`${montserrat.className} trans`}>TRANSFORMANDO IDEAS EN   <span style={{color:"#00FFFC"}}>SOLUCIONES DIGITALES</span></p>
         </div>
         <div className='btnAbout'>
-        <Link className='btnContactame' href="/quienes-somos">
+        <Link className='btnContactame' href="#WHO">
             <span></span>
             <span></span>
             <span></span>
