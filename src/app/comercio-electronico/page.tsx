@@ -56,7 +56,7 @@ export default function MarketingDigital() {
                             <p style={{ color: 'cyan', margin: 20, fontSize: 20 }}>Auditoría Web</p>
                             <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                 <div className='container_service_info'>
-                                    <p className='textService'>Nuestro equipo de Comercio Electrónico se compone de profesionales especializados en auditorías de canales digitales. Realizamos seguimientos, revisiones y análisis detallados de cada canal, buscando posibles fallas que afecten la navegación, usabilidad, velocidad de carga, interacción y seguridad. Presentamos informes detallados de los resultados y proponemos soluciones para mejorar.</p>
+                                    <p className='textService'>Nuestro equipo de Comercio Electrónico, compuesto por especialistas en auditorías de canales digitales, realiza seguimientos, revisiones y análisis detallados para detectar posibles fallos que afecten la navegación, usabilidad, velocidad de carga, interacción y seguridad. Presentamos informes detallados de los resultados y proponemos soluciones para mejorar.</p>
                                     <AudiWeb />
                                 </div>
                             </ScrollShadow>
@@ -68,7 +68,7 @@ export default function MarketingDigital() {
                             <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                 <div className='container_service_info'>
                                     <p className='textService'>
-                                        Generación Tech fue creada con el propósito de ofrecer soluciones digitales, y nuestro servicio de auditoría en redes sociales es esencial para que las empresas logren los resultados deseados. Realizamos evaluaciones detalladas del estado de su marca, analizamos su presencia en línea, tono de voz, reputación e impacto de sus estrategias. Utilizamos métricas y KPIs para elaborar informes. La auditoría en redes sociales es una inversión que contribuye directamente a la adquisición y retención de clientes.
+                                        Generación Tech, creado para ofrecer soluciones digitales, realiza auditorías en redes sociales para evaluar detalladamente el estado de la marca, su presencia en línea y estrategias. Utilizamos métricas y KPIs para informes, contribuyendo directamente a la adquisición y retención de clientes.
                                     </p>
                                     <AudiMedia />
                                 </div>
@@ -81,7 +81,7 @@ export default function MarketingDigital() {
                             <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                 <div className='container_service_info'>
                                     <p className='textService'>
-                                        Nuestro equipo de e-mail marketing desempeña un papel esencial en la gestión de relaciones, la adquisición de nuevos clientes y la generación de ingresos. Poseemos la capacidad para diseñar, ejecutar y optimizar campañas de e-mail marketing efectivas, clave para el éxito en el marketing digital, al permitir llegar de manera personalizada y medible a la audiencia.</p>
+                                        Nuestro equipo de e-mail marketing es esencial para la gestión de relaciones, adquisición de clientes y generación de ingresos. Tenemos la capacidad de diseñar, ejecutar y optimizar campañas efectivas, fundamentales en el marketing digital al llegar de manera personalizada y medible a la audiencia.</p>
                                     <Metricas />
                                 </div>
                             </ScrollShadow>
@@ -92,8 +92,7 @@ export default function MarketingDigital() {
                             <p style={{ color: 'cyan', margin: 20, fontSize: 20 }}>Análisis de ventas y conversiones</p>
                             <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                 <div className='container_service_info'>
-                                    <p className='textService'>
-                                        Las ventas digitales y la conversión son fundamentales en el comercio en línea. La habilidad de convertir visitantes en clientes es crucial para el éxito en el entorno digital. Nuestro equipo analiza y identifica estas necesidades en el entorno virtual, proporcionando informes detallados para ayudarle a crecer y transformar la realidad de su negocio.
+                                    <p className='textService'>En el comercio en línea, las ventas digitales y la conversión son esenciales. La capacidad de convertir visitantes en clientes es crucial para el éxito en el entorno digital. Nuestro equipo analiza y identifica estas necesidades en el entorno virtual, proporcionando informes detallados para ayudarle a crecer y transformar la realidad de su negocio.
                                     </p>
                                     <Ventas />
                                 </div>
@@ -105,7 +104,7 @@ export default function MarketingDigital() {
                             <p style={{ color: 'cyan', margin: 20, fontSize: 20 }}>Análisis del comportamiento del usuario</p>
                             <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                 <div className='container_service_info'>
-                                    <p className='textService'> Comprender cómo los usuarios navegan por un sitio web o una aplicación es clave para identificar áreas de mejora en la experiencia del usuario. En Generación Tech, llevamos a cabo pruebas de usabilidad y realizamos ajustes basados en los datos recopilados. </p>
+                                    <p className='textService'>Entender la navegación de usuarios en un sitio web o aplicación es clave para mejorar la experiencia del usuario. En Generación Tech, realizamos pruebas de usabilidad y ajustes basados en datos recopilados para optimizar la interacción. </p>
                                     <User />
                                 </div>
                             </ScrollShadow>
@@ -115,9 +114,7 @@ export default function MarketingDigital() {
             </div>
             <div>
                 <div className='container_porqueGt' style={{ marginBottom: 100 }}>
-                    <p>
-                        Como analistas en comercio electrónico, nos especializamos en evaluar detalladamente datos de ventas y tráfico online, analizar el rendimiento de tiendas virtuales, detectar tendencias, optimizar la experiencia del usuario, realizar análisis competitivos y mejorar tasas de conversión. Nuestras soluciones son fundamentales para el éxito y crecimiento sostenible de los negocios en línea, proporcionando auditorías y emitiendo informes profesionales.
-                    </p>
+                    <p>Como analistas en comercio electrónico, evaluamos detalladamente datos de ventas y tráfico online, optimizamos la experiencia del usuario y mejoramos tasas de conversión. Nuestras soluciones son esenciales para el éxito y crecimiento sostenible de los negocios en línea, brindando auditorías y emitiendo informes profesionales.</p>
 
                 </div>
                 <div className='beneficios'>
