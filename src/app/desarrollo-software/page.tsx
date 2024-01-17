@@ -67,7 +67,7 @@ export default function DesarrolloSoftware() {
                             <p style={{ color: 'cyan', margin: 20, fontSize: 20 }}>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
                             <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                 <div className='container_service_info'>
-                                    <p className='textService'>"El diseño UX/UI es esencial para el éxito de productos digitales, influyendo en la satisfacción del usuario, la retención, la conversión y la percepción de la marca. Invertir en UX/UI no solo mejora la experiencia del usuario, sino que también impacta positivamente en el rendimiento y el éxito del producto digital.</p>
+                                    <p className='textService'>El diseño UX/UI es esencial para el éxito de productos digitales, influyendo en la satisfacción del usuario, la retención, la conversión y la percepción de la marca. Invertir en UX/UI no solo mejora la experiencia del usuario, sino que también impacta positivamente en el rendimiento y el éxito del producto digital.</p>
                                     <UxUi />
                                 </div>
                             </ScrollShadow>
@@ -90,7 +90,7 @@ export default function DesarrolloSoftware() {
                             <p style={{ color: 'cyan', margin: 20, fontSize: 20 }}>Alojamiento Web hosting</p>
                             <ScrollShadow className="w-[300px] h-[400px]" hideScrollBar>
                                 <div className='container_service_info'>
-                                    <p className='textService'>"Un hosting web eficiente es esencial para un ambiente en línea seguro y de alto rendimiento. Su dedicación contribuye al éxito y satisfacción de los usuarios en un entorno digital altamente competitivo.</p>
+                                    <p className='textService'>Un hosting web eficiente es esencial para un ambiente en línea seguro y de alto rendimiento. Su dedicación contribuye al éxito y satisfacción de los usuarios en un entorno digital altamente competitivo.</p>
                                     <Hosting />
                                 </div>
                             </ScrollShadow>
