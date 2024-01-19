@@ -64,23 +64,23 @@ export default function Servicios(){
                                     <hr />
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Desarrollo y diseños de sitios web.</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Desarrollo y diseños de sitios web.</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Mantenimiento y Soporte de Software</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Mantenimiento y Soporte de Software</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Alojamiento Web hosting</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Alojamiento Web hosting</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Website Testing</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Website Testing</p>
                                         </div>
                                     </li>
                                 <Button onClick={handleLoader} style={{marginTop:20, background:"none", border:"1px solid white", color:"white" }}  variant="solid" href='/desarrollo-software' as={Link}>
@@ -95,23 +95,23 @@ export default function Servicios(){
                                 <hr />
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} /> 
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Gestión de RRSS y generación de contenidos.</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Gestión de RRSS y generación de contenidos.</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Optimización de motores de búsqueda SEO.</p>
+                                            <p style={{marginLeft: 7 , textAlignLast:'start', textAlign:'start'}} className='cardPService'>Optimización de motores de búsqueda SEO.</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlign:'start', fontSize:14}}>E-mail Marketing.</p>
+                                            <p style={{marginLeft: 7, textAlign:'start'}} className='cardPService'>E-mail Marketing.</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlign:'start', fontSize:14}}>Marketing de contenidos.</p>
+                                            <p style={{marginLeft: 7, textAlign:'start'}} className='cardPService'>Marketing de contenidos.</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlign:'start', fontSize:14}}>Optimización de motores de búsqueda SEM.</p>
+                                            <p style={{marginLeft: 7, textAlign:'start'}} className='cardPService'>Optimización de motores de búsqueda SEM.</p>
                                         </div>
                                     </li>                     
                             <Button onClick={handleLoader} style={{marginTop:20, background:"none", border:"1px solid white", color:"white" }}  variant="solid" href='/marketing-digital' as={Link}>
@@ -128,23 +128,23 @@ export default function Servicios(){
 
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Auditoría Web</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Auditoría Web</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Auditoría Social Media</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Auditoría Social Media</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Métricas y KPI s</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Métricas y KPI s</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Análisis de ventas y conversiones</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Análisis de ventas y conversiones</p>
                                         </div>
                                         <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                                             <CheckCircleOutlineIcon sx={{ fontSize: 30 }} />
-                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Análisis de comportamiento de cliente</p>
+                                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}} className='cardPService'>Análisis de comportamiento de cliente</p>
                                         </div>
                                         </li>
                                     <Button onClick={handleLoader} style={{marginTop:20, background:"none", border:"1px solid white", color:"white" }}  variant="solid" href='/comercio-electronico' as={Link}>

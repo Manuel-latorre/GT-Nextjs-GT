@@ -59,8 +59,8 @@ const Contacto = () => {
     setErrors({})
   }
   return (
-    <div style={{padding:50}} id='contacto'>
-        <p style={{fontSize: 30, fontWeight: '400', textAlign:'center', marginBottom: 80, marginTop: 50}}>CONTACTO</p>
+    <div id='contacto'>
+        <p className='contactoP'>CONTACTO</p>
 
         <form className='form' onSubmit={handleSubmit} ref={formulario}>
           

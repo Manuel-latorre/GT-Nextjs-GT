@@ -54,16 +54,40 @@
     left: 20px; /* Ajusta esta propiedad para cambiar la distancia desde la parte izquierda de la pantalla */
     z-index: 1000; /* Asegura que esté en la parte superior de otros elementos */
 }
-
+#contacto{
+    padding: 50px;
+}
 .errors{
     color: red;
 }
-
+.contactoP{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
 @media(max-width:800px){
     .textArea{
         width: 90%;
     }
     .inputForm{
         width: 90%;
+    }
+}
+
+@media(max-width:500px){
+    .inputForm{
+        width: 85%;
+    }
+    .textArea{
+        width: 85%;
+    }
+    .contactoP{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #contacto{
+        padding: 0;
     }
 }

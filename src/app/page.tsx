@@ -19,11 +19,11 @@ export default function Home() {
     <div className={montserrat.className}>
       <AboutUs/>
       <Quien/>
-      {/* <Servicios/>
+      <Servicios/>
       <Faqs/>
       <ContactoFaqs/>
       <Equipo/>
-      <Contacto/> */}
+      <Contacto/>
     </div>
   )
 }

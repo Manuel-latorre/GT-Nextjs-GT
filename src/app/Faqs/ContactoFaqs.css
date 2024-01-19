@@ -12,7 +12,6 @@
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 15px;
-    border: 1px solid rgba(128, 128, 128, 0.287);
 
 }
 
@@ -37,7 +36,9 @@
     color:  #00fff7;
    
 }
-
+.bodyFq{
+    font-size: 20px;
+}
 @media(max-width:1059px){
     .container-faqs-solucion{
         margin-bottom: 100px;
@@ -52,6 +53,23 @@
 
 @media(max-width:563px){
     .titulo-faqs{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .bodyFq{
+        font-size: 15px;
+    }
+    .btnAsesor{
+        font-size: 20px;
+    }
+}
+@media(max-width:403px){
+    .titulo-faqs{
+        font-size: 15px;
+    }
+    .bodyFq{
+        font-size:10px;
+    }
+    .btnAsesor{
+        font-size: 10px;
     }
 }

@@ -9,7 +9,9 @@
     border: 1px solid rgba(128, 128, 128, 0.287);
 
 }
-
+.tituloFQ{
+  font-size: 30px;
+}
 
 .text-foreground{
   color: white !important;
@@ -17,4 +19,17 @@
 
 .accordionItem{
   color: rgb(122, 231, 231);
+}
+
+@media(max-width:550px){
+  .accordion{
+    width: 95%;
+  }
+  .tituloFQ{
+    font-size: 20px;
+  }
+ 
+  .accordionItem{
+    font-size: 10px;
+  }
 }

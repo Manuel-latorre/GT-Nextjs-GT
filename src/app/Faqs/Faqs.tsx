@@ -15,7 +15,7 @@ const montserrat = Montserrat({
 export default function Faqs() {
   return (
     <div className={montserrat.className} style={{marginTop: 100}} id='faqs'>
-      <p style={{textAlign:'center', fontSize:30, marginBottom:50}}>PREGUNTAS FRECUENTES</p>
+      <p style={{textAlign:'center', marginBottom:50}} className="tituloFQ">PREGUNTAS FRECUENTES</p>
       <div className="accordion">
         <Accordion variant="bordered" isCompact>
           <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="¿Cómo puedo ponerme en contacto con ustedes?">

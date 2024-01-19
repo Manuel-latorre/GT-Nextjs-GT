@@ -34,7 +34,7 @@ import Link from 'next/link';
 export default function App() {
     return (
         <div id='equipo' style={{ marginTop: 100 }}>
-            <p style={{ textAlign: 'center', fontSize: 30, marginBottom: 50 }}>NUESTRO EQUIPO</p>
+            <p style={{ textAlign: 'center', marginBottom: 50 }} className='tituloServiciosTeam'>NUESTRO EQUIPO</p>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={25}
@@ -58,7 +58,7 @@ export default function App() {
                     <div className="cardEquipo">
                         <div className='imageCardEquipo'>
                             <Image width={150} src={damian} alt='Damián Gómez' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#555555' }}>Damián <br /><span style={{ color: "#00B6AF" }}>Gómez</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#555555' }} className='cardTitleService'>Damián <br /><span style={{ color: "#00B6AF" }}>Gómez</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
@@ -79,7 +79,7 @@ export default function App() {
                     <div className="cardEquipo" id='black'>
                         <div className='imageCardEquipo'>
                             <Image width={150} src={walter} alt='Walter Gómez' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#FFFF' }}>Walter <br /><span style={{ color: "#00B6AF" }}>Gómez</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#FFFF' }} className='cardTitleService'>Walter <br /><span style={{ color: "#00B6AF" }}>Gómez</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
@@ -101,7 +101,7 @@ export default function App() {
                     <div className="cardEquipo " id='green'>
                         <div className='imageCardEquipo'>
                             <Image width={150} src={pao} alt='Paola Vera' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#555555' }}>Paola <br /><span style={{ color: "#FFFF" }}>Vera</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#555555' }}className='cardTitleService' >Paola <br /><span style={{ color: "#FFFF" }}>Vera</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
@@ -122,7 +122,7 @@ export default function App() {
                     <div className="cardEquipo" >
                         <div className='imageCardEquipo'>
                             <Image width={150} src={mati} alt='Matías Hernandez' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#555555' }}>Matías <br /><span style={{ color: "#00B6AF" }}>Hernandez</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#555555' }} className='cardTitleService'>Matías <br /><span style={{ color: "#00B6AF" }}>Hernandez</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
@@ -145,7 +145,7 @@ export default function App() {
                     <div className="cardEquipo" id='green'>
                         <div className='imageCardEquipo'>
                             <Image width={150} src={guille} alt='Guillermina Díaz' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#555555' }}>Guillermina <br /><span style={{ color: "#FFFF" }}>Díaz</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#555555' }} className='cardTitleService' >Guillermina <br /><span style={{ color: "#FFFF" }}>Díaz</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
@@ -167,7 +167,7 @@ export default function App() {
                     <div className="cardEquipo" id='black'>
                         <div className='imageCardEquipo'>
                             <Image width={150} src={guiso} alt='Lucas Rius' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#FFFF' }}>Lucas <br /><span style={{ color: "#00B6AF" }}>Rius</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#FFFF' }}className='cardTitleService' >Lucas <br /><span style={{ color: "#00B6AF" }}>Rius</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
@@ -189,7 +189,7 @@ export default function App() {
                     <div className="cardEquipo">
                         <div className='imageCardEquipo'>
                             <Image width={150} src={juli} alt='Julián Rodríguez' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#555555' }}>Julián <br /><span style={{ color: "#00B6AF" }}>Rodríguez</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#555555' }} className='cardTitleService'>Julián <br /><span style={{ color: "#00B6AF" }}>Rodríguez</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
@@ -210,7 +210,7 @@ export default function App() {
                     <div className="cardEquipo" id='green'>
                         <div className='imageCardEquipo'>
                             <Image width={150} src={manu} alt='Manuel Latorre' />
-                            <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#555555' }}>Manuel <br /><span style={{ color: "#FFFF" }}>Latorre</span></p>
+                            <p style={{  fontWeight: 'bolder', color: '#555555' }} className='cardTitleService'>Manuel <br /><span style={{ color: "#FFFF" }}>Latorre</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>

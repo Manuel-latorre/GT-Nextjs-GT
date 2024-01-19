@@ -32,7 +32,9 @@
 
 
 
-
+.cardPService{
+  font-size: 14px;
+}
 
 
 .tituloCard{
@@ -49,7 +51,17 @@ hr{
 }
 
 
-
+@media(max-width:440px){
+  .cardServicio{
+    height: auto;
+  }
+  .tituloCard{
+    font-size: 14px;
+  }
+  .cardPService{
+    font-size: 10px;
+  }
+}
 
 @media(max-width:995px){
   .cardServicio{
