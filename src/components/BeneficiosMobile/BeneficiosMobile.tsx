@@ -23,25 +23,25 @@ export default function BeneficiosMobile (){
                         <SwiperSlide>
                             <div className='beneficios_card'>
                                 <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>PERSONALIZACIÓN TOTAL</p>
-                                <p>La programación propia permite una personalización completa del sitio web. Le permite  diseñar y desarrollar cada aspecto del sitio según sus necesidades y requisitos específicos, lo que resulta en un sitio web único y adaptado a su visión.</p>
+                        <p>La programación propia posibilita una personalización total del sitio web, permitiéndote diseñar y desarrollar cada aspecto según tus necesidades específicas. El resultado es un sitio único y adaptado a tu visión.</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='beneficios_card'>
                                 <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>ESCALABILIDAD</p>
-                                <p>Desarrollar un sitio web con programación propia le brinda la flexibilidad necesaria para escalar su sitio a medida que crece su negocio o proyecto. Puede agregar nuevas funciones y características de manera más eficiente sin depender de plataformas pre-construidas.</p>
+                        <p>Desarrollar un sitio web con programación propia proporciona la flexibilidad necesaria para escalar con el crecimiento de su negocio o proyecto. Permite la incorporación eficiente de nuevas funciones y características sin depender de plataformas pre-construidas.</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='beneficios_card'>
                                 <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>PROPIEDAD TOTAL</p>
-                                <p>Cuando creas su sitio web con programación propia, tiene la propiedad total de todo el código y los activos relacionados. Esto significa que no está limitado por restricciones de licencia y puede hacer cambios o mejoras en cualquier momento.</p>
+                        <p>Al crear tu sitio web con programación propia, posees la propiedad total del código y los activos relacionados. Esto implica que no estás limitado por restricciones de licencia y puedes realizar cambios o mejoras en cualquier momento.</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='beneficios_card'>
                                 <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>MENOS DEPENDENCIA</p>
-                                <p>No está atado a las actualizaciones o cambios de políticas de terceros, como ocurre con las plataformas de gestión de contenido (CMS) pre-construidas. Esto le brinda un mayor control sobre la evolución de su sitio.</p>
+                        <p>Al no depender de las actualizaciones o cambios de políticas de terceros, a diferencia de las plataformas de gestión de contenido (CMS) pre-construidas, obtienes un mayor control sobre la evolución de tu sitio al desarrollarlo con programación propia.</p>
                             </div>
                         </SwiperSlide>
                 </Swiper>

@@ -16,12 +16,12 @@ import BeneficiosMobileCe from '@/components/BeneficiosMobile/BeneficiosCe';
 import Image from 'next/image';
 
 const montserrat = Montserrat({
-  subsets:['latin'],
-  weight:['700', '500', '200']
+    subsets: ['latin'],
+    weight: ['700', '500', '200']
 })
 
 
-export default function MarketingDigital(){
+export default function MarketingDigital() {
     return (
         <div className={montserrat.className} >
             <div className="windSection punta">
@@ -99,8 +99,8 @@ Nos enfocamos en crear una experiencia de usuario atractiva y fácil de usar en 
             </div>
             </div>
             <div className='preguntas_frecuentes'>
-                <PreguntasFrecuentesCe/>
-                <ContactoFaqs/>
+                <PreguntasFrecuentesCe />
+                <ContactoFaqs />
             </div>
         </div>
     )

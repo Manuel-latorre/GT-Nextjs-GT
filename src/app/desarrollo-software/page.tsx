@@ -14,8 +14,8 @@ import hosting from "../../assets/hosting.svg"
 import mantenimiento from "../../assets/mantenimiento.svg"
 import desarollo from "../../assets/desarollo.svg"
 const montserrat = Montserrat({
-  subsets:['latin'],
-  weight:['700', '500', '200']
+    subsets: ['latin'],
+    weight: ['700', '500', '200']
 })
 
 
@@ -56,33 +56,31 @@ export default function DesarrolloSoftware(){
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"white"}}>ALOJAMIENTO</p>
                 <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"white"}}>WEB HOSTING</p>
                 </div>
-                <Image src={hosting} width={220} height={220} alt='gestion'/>
-            </div>
-            </div>
-            <div style={{marginTop:130}}>
-                <div className="containerTextMarketing">
-                <h1 className={`${montserrat.className} tituloExpMark`}>PERSONALIZACIÓN TOTAL</h1>
-                <div style={{textAlign:"justify"}}>
-                <p className={`${montserrat.className} textoParrafo`}>
-                La programación propia permite una personalización completa del sitio
-                web. Le permite  diseñar y desarrollar cada aspecto del sitio según sus
-                necesidades y requisitos específicos, lo que resulta en un sitio web 
-                único y adaptado a su visión.
+                <div className='beneficios'>
+                   <p style={{color:'cyan', margin:20, fontSize:20}}>BENEFICIOS DE CONTAR CON UN SITIO WEB A MEDIDA</p> 
+                   <div className='benefecios_card_container'>
+                    <div style={{display:'flex'}}>
+                        <div className='beneficios_card'>
+                            <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>PERSONALIZACIÓN TOTAL</p>
+                            <p>La programación propia permite una personalización completa del sitio web. Le permite  diseñar y desarrollar cada aspecto del sitio según sus necesidades y requisitos específicos, lo que resulta en un sitio web único y adaptado a su visión.</p>
+                        </div>
+                        <div className='beneficios_card'>
+                            <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>ESCALABILIDAD</p>
+                            <p>Desarrollar un sitio web con programación propia le brinda la flexibilidad necesaria para escalar su sitio a medida que crece su negocio o proyecto. Puede agregar nuevas funciones y características de manera más eficiente sin depender de plataformas pre-construidas.</p>
+                        </div>
+                    </div>
+                    <div style={{display:'flex'}}>
+                        <div className='beneficios_card'>
+                            <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>PROPIEDAD TOTAL</p>
+                            <p>Cuando creas su sitio web con programación propia, tiene la propiedad total de todo el código y los activos relacionados. Esto significa que no está  limitado por restricciones de licencia y puede  hacer cambios o mejoras en cualquier momento.</p>
+                        </div>
+                        <div className='beneficios_card'>
+                            <p style={{margin:20, color:'cyan', fontSize:20, textAlign:'center'}}>MENOS DEPENDENCIA</p>
+                            <p>No está atado a las actualizaciones o cambios de políticas de terceros, como ocurre con las plataformas de gestión de contenido (CMS) pre-construidas. Esto le brinda un mayor control sobre la evolución de su sitio.</p>
+                        </div>
+                    </div>
 
-                </p>
-                </div>
-                </div>
-                <div className="containerTextMarketing">
-                <h1 className={`${montserrat.className} tituloExpMark`}>ESCALABILIDAD</h1>
-                <div style={{textAlign:"justify"}}>
-                <p className={`${montserrat.className} textoParrafo`}>
-                    Desarrollar un sitio web con programación propia le brinda la 
-                    flexibilidad necesaria para escalar su sitio a medida que crece su 
-                    negocio o proyecto. Puede agregar nuevas funciones y características de 
-                    manera más eficiente sin depender de plataformas pre-construidas.
-
-                </p>
-                </div>
+                   </div>
                 </div>
                 <div className="containerTextMarketing">
                 <h1 className={`${montserrat.className} tituloExpMark`}>PROPIEDAD TOTAL</h1>
@@ -108,10 +106,12 @@ export default function DesarrolloSoftware(){
                 </div>
                 </div>
 
+
             </div>
-        </div>       
+            <div className='preguntas_frecuentes'>
                 <PreguntasFrecuentesDs/>
                 <ContactoFaqs/>
             </div>
+        </div>
     )
 }

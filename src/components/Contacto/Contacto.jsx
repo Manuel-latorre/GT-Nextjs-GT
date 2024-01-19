@@ -64,16 +64,16 @@ const Contacto = () => {
 
         <form className='form' onSubmit={handleSubmit} ref={formulario}>
           
-            <input className='inputForm' type="text" placeholder='Introduzca su nombre ...' name='name' value={form.name} onChange={handleChange} />
+            <input className='inputForm' type="text" placeholder='Nombre' name='name' value={form.name} onChange={handleChange} />
             {errors.name && <p className='errors'>{errors.name}</p>}
 
-            <input className='inputForm' type="text" placeholder='Introduzca su Email ...' name='email' value={form.email} onChange={handleChange}/>
+            <input className='inputForm' type="text" placeholder='Email' name='email' value={form.email} onChange={handleChange}/>
             {errors.email && <p className='errors'>{errors.email}</p>}
 
-            <input className='inputForm' type="tel" placeholder='Introduzca su teléfono ...' name='tel' value={form.tel} onChange={handleChange}/>
+            <input className='inputForm' type="tel" placeholder='Teléfono' name='tel' value={form.tel} onChange={handleChange}/>
             {errors.tel && <p className='errors'>{errors.tel}</p>}
 
-            <textarea className='textArea' placeholder='Contanos en qué podemos ayudarte ...' name='text' value={form.text} onChange={handleChange}></textarea>
+            <textarea className='textArea' placeholder='Contanos en qué podemos ayudarte:' name='text' value={form.text} onChange={handleChange}></textarea>
             {errors.text && <p className='errors'>{errors.text}</p>}
 
             <button className='btnEnviar' disabled={disabled()}> ENVIAR </button>

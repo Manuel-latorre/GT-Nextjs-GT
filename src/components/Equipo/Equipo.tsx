@@ -100,12 +100,12 @@ export default function App() {
                 <SwiperSlide>
                     <div className="cardEquipo " id='green'>
                         <div className='imageCardEquipo'>
-                            <Image width={150} src={pao} alt='guiso' />
+                            <Image width={150} src={pao} alt='Paola Vera' />
                             <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#555555' }}>Paola <br /><span style={{ color: "#FFFF" }}>Vera</span></p>
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
-                                <p className={`${montserrat.className} rol`} style={{ color: "white" }}>Marketing Manager</p>
+                                <p className={`${montserrat.className} rol`} style={{ color: "white" }}>Gerente de Marketing</p>
                                 <hr />
                                 <p className={`${montserrat.className} rolDescription`} style={{ color: "white" }}>Desarrollo las estrategias de comunicación para los canales digitales.</p>
                             </div>
@@ -126,7 +126,7 @@ export default function App() {
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
-                                <p className={`${montserrat.className} rol`}>Manager Technology</p>
+                                <p className={`${montserrat.className} rol`}>Gerente de Tecnología</p>
                                 <hr />
                                 <p className={`${montserrat.className} rolDescription`}>Colaboro en el desarrollo de soluciones y sitios webs tanto en el Frontend como en el Backend</p>
                             </div>
@@ -166,7 +166,7 @@ export default function App() {
                 <SwiperSlide>
                     <div className="cardEquipo" id='black'>
                         <div className='imageCardEquipo'>
-                            <Image width={150} src={guiso} alt='guiso' />
+                            <Image width={150} src={guiso} alt='Lucas Rius' />
                             <p style={{ fontSize: 43, fontWeight: 'bolder', color: '#FFFF' }}>Lucas <br /><span style={{ color: "#00B6AF" }}>Rius</span></p>
                         </div>
                         <div className='rolContainer'>
