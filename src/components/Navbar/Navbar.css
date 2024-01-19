@@ -173,3 +173,8 @@
     }
     
 }
+@media(max-width:380px){
+    .logo{
+        max-width: 150px;
+    }
+}

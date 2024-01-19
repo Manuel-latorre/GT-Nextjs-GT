@@ -20,7 +20,7 @@ const AboutUs = () => {
 
     <main className='main'>
       <div className='aboutText'>
-        <div style={{display:"flex",flexDirection:"column"}}>
+        <div style={{display:"flex",flexDirection:"column"}} className='TextoAboutFirst'>
         <h1 className={`${montserrat.className} gt`}>GENERACIÓN <br /> <span style={{color:"#00FFFC"}}>TECH</span></h1>
         <p className={`${montserrat.className} trans`}>TRANSFORMANDO IDEAS EN   <span style={{color:"#00FFFC"}}>SOLUCIONES DIGITALES</span></p>
         </div>
