@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <div className={montserrat.className}>
       <AboutUs/>
-      {/* <Quien/>
-      <Servicios/>
+      <Quien/>
+      {/* <Servicios/>
       <Faqs/>
       <ContactoFaqs/>
       <Equipo/>
