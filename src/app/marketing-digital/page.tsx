@@ -15,6 +15,8 @@ import ContactoFaqs from '../Faqs/ContactoFaqs';
 import '../Faqs/ContactoFaqs.css';
 import "./marketing.css"
 import Image from 'next/image';
+import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
+
 const montserrat = Montserrat({
   subsets:['latin'],
   weight:['700', "600","800","900",'500', "400","300",'200']
@@ -23,6 +25,7 @@ import {Accordion, AccordionItem} from "@nextui-org/react";
 
 
 export default function MarketingDigital(){
+    const {isOpen, onOpen, onOpenChange} = useDisclosure();
     return (
         <div>
             <div className="windSection punta">
@@ -31,7 +34,43 @@ export default function MarketingDigital(){
         <div className='marketingContainer'>
             
             <div className="sectionContainerM">
-            <div className="section1M">
+            <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
+              <ModalBody>
+                <p style={{color:"black"}}> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
+                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
+                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
+                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
+                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
+                </p>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+                <Button color="primary" onPress={onClose}>
+                  Action
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
+            <div className="section1M" onClick={onOpen}>
                 <div className="sectionText">
                 <p className={`${montserrat.className} gestionTitulo`}>GESTIÓN <br /> DE REDES</p>
                 <p className={`${montserrat.className} gestionSubtitulo`}>Y GENERACIÓN <br /> DE CONTENIDO</p>
