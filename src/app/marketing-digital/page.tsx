@@ -28,48 +28,14 @@ export default function MarketingDigital(){
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     return (
         <div>
+
+
             <div className="windSection punta">
                 <p className={`${montserrat.className} sectionTitle`}>MARKETING DIGITAL</p>
             </div>
         <div className='marketingContainer'>
             
             <div className="sectionContainerM">
-            <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
-        <ModalContent>
-          {(onClose) => (
-            <>
-              <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
-              <ModalBody>
-                <p style={{color:"black"}}> 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
-              </ModalBody>
-              <ModalFooter>
-                <Button color="danger" variant="light" onPress={onClose}>
-                  Close
-                </Button>
-                <Button color="primary" onPress={onClose}>
-                  Action
-                </Button>
-              </ModalFooter>
-            </>
-          )}
-        </ModalContent>
-      </Modal>
             <div className="section1M" onClick={onOpen}>
                 <div className="sectionText">
                 <p className={`${montserrat.className} gestionTitulo`}>GESTIÓN <br /> DE REDES</p>
@@ -98,6 +64,69 @@ export default function MarketingDigital(){
                 <div className="sectionText">
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"white"}}>MARKETING</p>
                 <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"white"}}>DE CONTENIDO</p>
+                </div>
+                <Image src={content} width={220} height={220} alt='gestion'/>
+            </div>
+            </div>
+            <div style={{marginTop:130}}>
+                <div className="containerTextMarketing">
+                <h1 className={`${montserrat.className} tituloExpMark`}>MEDICIÓN Y ANÁLISIS</h1>
+                <div style={{textAlign:"justify"}}>
+                <p className={`${montserrat.className} textoParrafo`}>En <strong>Generación Tech</strong>, nuestra área de <strong>Tecnología</strong> es la esencia de nuestro trabajo. Diseñamos, creamos y mantenemos software para sitios web y aplicaciones móviles, utilizando <strong>metodologías ágiles</strong> para garantizar eficiencia y productividad. Nos comprometemos a entregas a tiempo, <strong>calidad</strong> y satisfacción de nuestros clientes mediante revisiones constantes y productos mínimos viables.</p>
+                </div>
+                </div>
+                <div className="containerTextMarketing">
+                <h1 className={`${montserrat.className} tituloExpMark`}>MAXIMIZACIÓN DE RECURSOS</h1>
+                <div style={{textAlign:"justify"}}>
+                <p className={`${montserrat.className} textoParrafo`}>Nuestra área de <strong>Investigación</strong> es la piedra fundamental de cada proyecto, desde aquí evaluamos <strong>oportunidades</strong> de negocios, tratando de descubrir las necesidades del mercado, para luego ejecutar propuestas con bases sólidas a partir de datos relevados por nuestros profesionales especialistas en <strong>análisis</strong> de mercados y <strong>auditorias digitales</strong>.</p>
+                </div>
+                </div>
+                <div className="containerTextMarketing">
+                <h1 className={`${montserrat.className} tituloExpMark`}>DESARROLLOS</h1>
+                <div style={{textAlign:"justify"}}>
+                <p className={`${montserrat.className} textoParrafo`}>La <strong>planificación</strong> es vital para el desarrollo de proyectos específicos, medibles, alcanzables, relevantes y temporales. Siendo esta área la que <strong>traza objetivos</strong>, gestiona recursos, <strong>controla tiempos y costos</strong>, mitiga riesgos y mejora la <strong>calidad</strong> de nuestros productos y servicios.</p>
+                </div>
+                </div>  <div className="containerTextMarketing">
+                <h1 className={`${montserrat.className} tituloExpMark`}>ENFOQUE ESTRATÉGICO</h1>
+                <div style={{textAlign:"justify"}}>
+                <p className={`${montserrat.className} textoParrafo`}>
+                Nuestros <strong>desarrollos</strong> son clave para mantenernos <strong>competitivos</strong> en un entorno en constante cambio. Permiten a las empresas <strong>adaptarse a las necesidades</strong> cambiantes de los clientes, optimizar operaciones internas, introducir nuevos productos y explorar oportunidades de <strong>crecimiento</strong>. En nuestra perspectiva, son fundamentales para la supervivencia y éxito a largo plazo en un mercado dinámico.
+                </p>
+                </div>
+                </div>
+
+                <div className="sectionContainerM">
+                    <div className="section1M">
+                        <div className="sectionText">
+                            <p className={`${montserrat.className} gestionTitulo`}>GESTIÓN <br /> DE REDES</p>
+                            <p className={`${montserrat.className} gestionSubtitulo`}>Y GENERACIÓN <br /> DE CONTENIDO</p>
+                        </div>
+                        <Image src={gestion} width={220} height={220} alt='gestion' />
+                    </div>
+                    <div className="section2M">
+                        <div className="sectionText">
+                            <p className={`${montserrat.className} gestionTitulo`} style={{ color: "#fff" }}>EMAIL</p>
+                            <p className={`${montserrat.className} gestionSubtitulo`} style={{ color: "#00FFFC", fontWeight: 500 }}>MARKETING</p>
+                        </div>
+                        <Image src={email} width={220} height={220} alt='gestion' />
+                    </div><div className="section3M">
+                        <div className="sectionText">
+                            <p className={`${montserrat.className} gestionTitulo`} style={{ color: "white" }}>SEO</p>
+                            <p className={`${montserrat.className} gestionSubtitulo`} style={{ color: "#fff" }}>OPTIMIZACIÓN PARA
+                                <br />
+                                MOTORES
+                                <br />
+                                DE BUSQUEDA
+                            </p>
+                        </div>
+                        <Image src={seo} width={220} height={220} alt='gestion' />
+                    </div><div className="section4M">
+                        <div className="sectionText">
+                            <p className={`${montserrat.className} gestionTitulo`} style={{ color: "white" }}>MARKETING</p>
+                            <p className={`${montserrat.className} gestionSubtitulo`} style={{ color: "white" }}>DE CONTENIDO</p>
+                        </div>
+                        <Image src={content} width={220} height={220} alt='gestion' />
+                    </div>
                 </div>
                 <div style={{ marginTop: 130 }}>
                     <div className="containerTextMarketing">
@@ -149,7 +178,8 @@ export default function MarketingDigital(){
                 </div>
                 <ContactoFaqs />
             </div>
-
         </div>
+        </div>
+
     )
 }

@@ -27,7 +27,7 @@ export default function MarketingDigital() {
             <div className="windSection punta">
                 <p className={`${montserrat.className} sectionTitle`}>COMERCIO ELECTRÓNICO</p>
             </div>
-            <div className='marketingContainer'>
+        <div className='marketingContainer'>
 
         <div className="sectionContainerM" >
          <div className="section1M">
