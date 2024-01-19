@@ -94,68 +94,6 @@ export default function MarketingDigital(){
                 </p>
                 </div>
                 </div>
-
-                <div className="sectionContainerM">
-                    <div className="section1M">
-                        <div className="sectionText">
-                            <p className={`${montserrat.className} gestionTitulo`}>GESTIÓN <br /> DE REDES</p>
-                            <p className={`${montserrat.className} gestionSubtitulo`}>Y GENERACIÓN <br /> DE CONTENIDO</p>
-                        </div>
-                        <Image src={gestion} width={220} height={220} alt='gestion' />
-                    </div>
-                    <div className="section2M">
-                        <div className="sectionText">
-                            <p className={`${montserrat.className} gestionTitulo`} style={{ color: "#fff" }}>EMAIL</p>
-                            <p className={`${montserrat.className} gestionSubtitulo`} style={{ color: "#00FFFC", fontWeight: 500 }}>MARKETING</p>
-                        </div>
-                        <Image src={email} width={220} height={220} alt='gestion' />
-                    </div><div className="section3M">
-                        <div className="sectionText">
-                            <p className={`${montserrat.className} gestionTitulo`} style={{ color: "white" }}>SEO</p>
-                            <p className={`${montserrat.className} gestionSubtitulo`} style={{ color: "#fff" }}>OPTIMIZACIÓN PARA
-                                <br />
-                                MOTORES
-                                <br />
-                                DE BUSQUEDA
-                            </p>
-                        </div>
-                        <Image src={seo} width={220} height={220} alt='gestion' />
-                    </div><div className="section4M">
-                        <div className="sectionText">
-                            <p className={`${montserrat.className} gestionTitulo`} style={{ color: "white" }}>MARKETING</p>
-                            <p className={`${montserrat.className} gestionSubtitulo`} style={{ color: "white" }}>DE CONTENIDO</p>
-                        </div>
-                        <Image src={content} width={220} height={220} alt='gestion' />
-                    </div>
-                </div>
-                <div style={{ marginTop: 130 }}>
-                    <div className="containerTextMarketing">
-                        <h1 className={`${montserrat.className} tituloExpMark`}>MEDICIÓN Y ANÁLISIS</h1>
-                        <div style={{ textAlign: "justify" }}>
-                            <p className={`${montserrat.className} textoParrafo`}>En <strong>Generación Tech</strong>, la <strong>Tecnología</strong> es nuestra esencia. Diseñamos, creamos y mantenemos software para sitios web y aplicaciones móviles utilizando <strong>metodologías ágiles</strong>. Nos comprometemos a entregas puntuales, <strong>calidad</strong> y satisfacción del cliente mediante revisiones constantes y productos mínimos viables.</p>
-                        </div>
-                    </div>
-                    <div className="containerTextMarketing">
-                        <h1 className={`${montserrat.className} tituloExpMark`}>MAXIMIZACIÓN DE RECURSOS</h1>
-                        <div style={{ textAlign: "justify" }}>
-                            <p className={`${montserrat.className} textoParrafo`}>Nuestra área de <strong>Investigación</strong> es la base de cada proyecto. Evaluamos <strong>oportunidades</strong> de negocios, descubrimos necesidades del mercado y ejecutamos propuestas sólidas a partir de datos recopilados por nuestros especialistas en <strong>análisis</strong> de mercados y <strong>auditorias digitales</strong>.</p>
-                        </div>
-                    </div>
-                    <div className="containerTextMarketing">
-                        <h1 className={`${montserrat.className} tituloExpMark`}>DESARROLLOS</h1>
-                        <div style={{ textAlign: "justify" }}>
-                            <p className={`${montserrat.className} textoParrafo`}>La <strong>planificación</strong> es vital para el desarrollo de proyectos específicos, <strong>trazando objetivos</strong>, gestionando recursos, <strong>controlando tiempos y costos</strong>, mitigando riesgos y mejora la <strong>calidad</strong> de nuestros productos y servicios.</p>
-                        </div>
-                    </div>  <div className="containerTextMarketing">
-                        <h1 className={`${montserrat.className} tituloExpMark`}>ENFOQUE ESTRATÉGICO</h1>
-                        <div style={{ textAlign: "justify" }}>
-                            <p className={`${montserrat.className} textoParrafo`}>
-                                Nuestros <strong>desarrollos</strong> son clave para la <strong>competitividad</strong> en un entorno cambiante, permitiendo a las empresas <strong>adaptarse a las necesidades</strong> de los clientes, optimizar operaciones internas, lanzar nuevos productos y explorar oportunidades de <strong>crecimiento</strong>. En nuestra perspectiva, son fundamentales para el éxito a largo plazo en un mercado dinámico.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
             </div>
 
             <div className={montserrat.className} style={{ marginTop: 100 }} id='faqs'>
