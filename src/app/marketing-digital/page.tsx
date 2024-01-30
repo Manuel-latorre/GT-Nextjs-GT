@@ -68,7 +68,7 @@ export default function MarketingDigital(){
                 <Image src={content} width={220} height={220} alt='gestion'/>
             </div>
             </div>
-            <div style={{marginTop:130}}>
+            <div style={{marginTop:130}} className='containerContainer'>
                 <div className="containerTextMarketing">
                 <h1 className={`${montserrat.className} tituloExpMark`}>MEDICIÓN Y ANÁLISIS</h1>
                 <div style={{textAlign:"justify"}}>

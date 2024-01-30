@@ -22,7 +22,6 @@ function Quien() {
         </p>
         </div>
         <cite style={{color:"#00FFFC"}} className='cita'>“Para Generación Tech una buena planificación es la clave del éxito.”</cite>
-        <button className='botonAbout'>Leer más</button>
     </div>
     </div>
   )
