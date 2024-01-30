@@ -8,3 +8,15 @@
     width: 80%;
     margin: auto;
 }
+.dsTitulo{
+    font-size: 30px;
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media(max-width:700px){
+    .dsTitulo{
+        font-size: 20px;
+    }
+}

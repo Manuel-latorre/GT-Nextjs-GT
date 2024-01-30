@@ -203,6 +203,21 @@
     .text_container{
         width: 90%;
     }
+    .sectionTitle{
+        font-size: 30px;
+    }
+    .punta{
+        width: 600px;
+    }
+    .tituloExpMark{
+        font-size: 25px;
+    }
+    .textoParrafo{
+        font-size: 12px;
+    }
+    .containerTextMarketing{
+        width: 650px;
+    }
 }
 
 
@@ -210,9 +225,33 @@
     .logoGt{
         width: 400px;
     }
-    /* .container_porqueGt{
-    
-    } */
+    .gestionTitulo{
+        font-size: 36px;
+    }
+    .gestionSubtitulo{
+        font-size: 15px;
+    }
+    .section1M{
+        width: 480px;
+    }
+    .section2M{
+        width: 480px;
+    }
+    .section3M{
+        width: 480px;
+    }
+    .section4M{
+        width: 480px;
+    }
+    .containerTextMarketing{
+        width: 500px;
+    }
+    .punta{
+        width: 500px;
+    }
+    .sectionTitle{
+        font-size: 20px;
+    }
 }
 
 @media(max-width:665px){
@@ -222,11 +261,70 @@
     .text_porqueGt_mobile{
         display: contents;
     }
+    .tituloExpMark{
+        font-size: 20px;
+    }
+    .containerTextMarketing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .containerContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .punta{
+        width: 65%;
+    }
+    .sectionTitle{
+        font-size: 17px;
+    }
 }
-
+@media(max-width: 521px){
+    .gestionTitulo{
+        font-size: 22px;
+    }
+    .section1M{
+        width: 80%;
+        height: 200px;
+    }
+    .section2M{
+        width: 80%;
+        height: 200px;
+    }
+    .section2M img{
+        height: 120px;
+    }
+    .section3M{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .section3M img{
+        height: 120px;
+    }
+    .section4M{
+        flex-direction: row;
+        height: 200px;
+        width: 80%;
+    }
+    .section4M img{
+        height: 120px;
+    }
+}
 @media(max-width: 500px){
-    
-
+    .gestionTitulo{
+        font-size: 15px;
+    }
+    .gestionSubtitulo{
+        font-size: 10px;
+    }
     .title{
         font-size: 25px;
     }

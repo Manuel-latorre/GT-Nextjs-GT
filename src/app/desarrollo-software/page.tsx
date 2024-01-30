@@ -43,7 +43,7 @@ export default function DesarrolloSoftware(){
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"#fff"}}>DISEÑO <br />UXUI</p>
                 </div>
                 <Image src={uxui} width={180} height={180} alt='gestion'/>
-            </div><div className="section3M" style={{display:"flex", flexDirection:"column"}}>
+            </div><div className="section3M">
                 <div className="sectionText">
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"white"}}>MANTENIMIENTO</p>
                 <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"#fff"}}>
@@ -51,7 +51,7 @@ export default function DesarrolloSoftware(){
                 </p>
                 </div>
                 <Image src={mantenimiento} width={150} height={150} alt='gestion'/>
-            </div><div className="section4M" style={{display:"flex", flexDirection:"column"}}>
+            </div><div className="section4M">
                 <div className="sectionText">
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"white"}}>ALOJAMIENTO</p>
                 <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"white"}}>WEB HOSTING</p>
@@ -59,7 +59,7 @@ export default function DesarrolloSoftware(){
                 <Image src={hosting} width={220} height={220} alt='gestion'/>
             </div>
             </div>
-            <div style={{marginTop:130}}>
+            <div style={{marginTop:130}} className='containerContainer'>
                 <div className="containerTextMarketing">
                 <h1 className={`${montserrat.className} tituloExpMark`}>PERSONALIZACIÓN TOTAL</h1>
                 <div style={{textAlign:"justify"}}>

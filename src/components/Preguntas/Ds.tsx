@@ -7,7 +7,7 @@ export default function PreguntasFrecuentesDs() {
 
   return (
     <div>
-        <p style={{textAlign:'center', fontSize:30, marginBottom:50}}>PREGUNTAS FRECUENTES</p>
+        <p className="dsTitulo">PREGUNTAS FRECUENTES</p>
         <div className="accordion_preguntas">
             <Accordion variant="bordered">
                 <AccordionItem className="accordionItem" key="1" aria-label="Accordion 1" title="¿Qué tipo de página web necesito?">
