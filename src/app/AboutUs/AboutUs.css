@@ -178,7 +178,7 @@
 
 @media(max-width: 660px){
     .btnContactame{
-        font-size: 9px;
+        font-size: 10px;
     }
 }
 @media(max-width: 654px){
@@ -232,7 +232,7 @@
         font-size: 6px;
     }
     .btnContactame{
-        font-size: 4px;
+        font-size: 6px;
         width: 100px;
     }
 }

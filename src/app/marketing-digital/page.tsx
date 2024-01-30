@@ -37,20 +37,20 @@ export default function MarketingDigital(){
             
             <div className="sectionContainerM">
             <div className="section1M" onClick={onOpen}>
-                <div className="sectionText">
+                <div className="sectionText" style={{marginLeft:20}}>
                 <p className={`${montserrat.className} gestionTitulo`}>GESTIÓN <br /> DE REDES</p>
                 <p className={`${montserrat.className} gestionSubtitulo`}>Y GENERACIÓN <br /> DE CONTENIDO</p>
                 </div>
                 <Image src={gestion} width={220} height={220} alt='gestion'/>
             </div>
             <div className="section2M">
-                <div className="sectionText">
+                <div className="sectionText" style={{marginLeft:20}}>
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"#fff"}}>EMAIL</p>
                 <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"#00FFFC", fontWeight:500}}>MARKETING</p>
                 </div>
                 <Image src={email} width={220} height={220} alt='gestion'/>
             </div><div className="section3M">
-                <div className="sectionText">
+                <div className="sectionText" style={{marginLeft:20}}>
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"white"}}>SEO</p>
                 <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"#fff"}}>OPTIMIZACIÓN PARA
                 <br />

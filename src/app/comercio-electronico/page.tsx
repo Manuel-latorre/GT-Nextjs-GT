@@ -39,13 +39,13 @@ export default function MarketingDigital() {
              <Image src={metrica} width={180} height={180} alt='gestion'/> 
          </div>
          <div className="section2M" >
-             <div className="sectionText">
+             <div className="sectionText" style={{marginLeft:20}}>
              <p className={`${montserrat.className} gestionTitulo`} style={{color:"#fff"}}>ANÁLISIS DE <br />VENTA</p>
              <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"#fff"}}>Y CONVERSIONES</p>
              </div>
              <Image src={analisis} width={180} height={180} alt='gestion'/>
          </div><div className="section3M">
-             <div className="sectionText">
+             <div className="sectionText" style={{marginLeft:29}}>
              <p className={`${montserrat.className} gestionTitulo`} style={{color:"white"}}>ANÁLISIS</p>
              <p className={`${montserrat.className} gestionSubtitulos`} style={{color:"white"}}>DE USUARIOS</p>
              </div>

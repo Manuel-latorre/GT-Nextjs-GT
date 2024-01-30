@@ -33,7 +33,7 @@ export default function DesarrolloSoftware(){
             <div className="section1M">
                 <div className="sectionText">
                     
-                <p className={`${montserrat.className} gestionTitulo`}>DESAROLLO<br /> DE</p>
+                <p className={`${montserrat.className} gestionTitulo`}>DESAROLLO<br /></p>
                 <p className={`${montserrat.className} gestionTitulo`}>DE SITIOS <br />WEB</p>
                 </div>
                 <Image src={desarollo} width={180} height={180} alt='gestion'/>
@@ -44,7 +44,7 @@ export default function DesarrolloSoftware(){
                 </div>
                 <Image src={uxui} width={180} height={180} alt='gestion'/>
             </div><div className="section3M">
-                <div className="sectionText">
+                <div className="sectionText" style={{marginLeft:20}}>
                 <p className={`${montserrat.className} gestionTitulo`} style={{color:"white"}}>MANTENIMIENTO</p>
                 <p className={`${montserrat.className} gestionSubtitulo`} style={{color:"#fff"}}>
                     <br />Y SOPORTE DE <br />SOFTWARE
