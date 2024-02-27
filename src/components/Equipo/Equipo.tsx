@@ -118,7 +118,7 @@ export default function App() {
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
-                                <p className={`${montserrat.className} rol`} style={{ color: "white" }}>Gerente de Marketing</p>
+                                <p className={`${montserrat.className} rol`} style={{ color: "white" }}>Marketing Manager</p>
                                 <hr />
                                 <p className={`${montserrat.className} rolDescription`} style={{ color: "white" }}>Desarrollo de las estrategias de comunicación para los canales digitales.</p>
                             </div>
@@ -139,7 +139,7 @@ export default function App() {
                         </div>
                         <div className='rolContainer'>
                             <div style={{ marginTop: 10 }}>
-                                <p className={`${montserrat.className} rol`}>Gerente de Tecnología</p>
+                                <p className={`${montserrat.className} rol`}>Tech Manager</p>
                                 <hr />
                                 <p className={`${montserrat.className} rolDescription`}>Colaboración en el desarrollo de soluciones y sitios webs tanto en el Frontend como en el Backend</p>
                             </div>
