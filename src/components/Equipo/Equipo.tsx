@@ -77,7 +77,7 @@ export default function App() {
                             <div style={{ marginTop: 10 }}>
                                 <p className={`${montserrat.className} rol`}>Director Operativo</p>
                                 <hr />
-                                <p className={`${montserrat.className} rolDescription`}>Responsable de supervisar todas las operaciones diarias de la empresa, asegurando que los procesos estén optimizados y que se cumplan los plazos y los estándares de calidad.</p>
+                                <p className={`${montserrat.className} rolDescription`}>Responsable de supervisar las operaciones diarias de la empresa, asegurando la optimización de los procesos, el cumplimiento de los plazos y los estandares de calidad.</p>
                             </div>
                             <div style={{ marginTop: 20 }}>
                                 <Button as={Link} href='https://www.linkedin.com/in/walter-gomez-b97909179/' target='_blank' variant='solid' color='primary'>
